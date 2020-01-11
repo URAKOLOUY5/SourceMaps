@@ -22,7 +22,7 @@ Add new line, like this:
 
 ![](https://cdn.discordapp.com/attachments/619231812987650059/665629503338315776/unknown.png)
 
-`If you are interested in editing gameinfo.txt, please visit the [wikipedia page](https://developer.valvesoftware.com/wiki/Gameinfo.txt)`
+*If you are interested in editing gameinfo.txt, please visit the [wikipedia page](https://developer.valvesoftware.com/wiki/Gameinfo.txt)*
 
 When you have added this line, save the file. And go back to the main game folder (ex: **Half-Life 2**).
 There, create a new folder with the same name as you specified after `game+mod`. In our case, `urakolouy5_gmodassets`. Next, open the archive and browse to the assets folder. Open the game and content you want to the map and copy it into the created folder.
