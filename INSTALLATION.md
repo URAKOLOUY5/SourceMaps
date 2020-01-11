@@ -2,7 +2,7 @@
 
 #### Structure of asset archive
 
-To install you should download archive of branch by clicking ![](https://cdn.discordapp.com/attachments/619231812987650059/665625609883353098/unknown.png).
+To install you should download archive of branch by clicking [download](https://github.com/URAKOLOUY5/SourceMaps/archive/master.zip)
 
 After you have downloaded the archive, there will be the necessary folders:
 
