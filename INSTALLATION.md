@@ -2,7 +2,7 @@
 
 #### Structure of asset archive
 
-To install you should download archive of branch by clicking [download](https://github.com/URAKOLOUY5/SourceMaps/archive/master.zip)
+To install you should download archive of branch by clicking [download](https://github.com/URAKOLOUY5/SourceMaps/archive/assets.zip)
 
 After you have downloaded the archive, there will be the necessary folders:
 
