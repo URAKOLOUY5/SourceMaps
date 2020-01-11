@@ -14,7 +14,7 @@ Folder **assets** is a root folder. It contain **gamename** и folder named **mo
 
 Once you have checked the structure of the archive and selected the neccesary asset, you need to install them in your SDK editor. 
 
-First you need to open a folder with the game that is located in `steamapps`. In this folder you find the game (уч: Half-Life 2) and one of the games opens. For example, if your editor uses `ep2` you open it. In it you find the file `gameinfo.txt`.  Next, look for a line:
+First you need to open a folder with the game that is located in `steamapps`. In this folder you find the game (ex: Half-Life 2) and one of the games opens. For example, if your editor uses `ep2` you open it. In it you find the file `gameinfo.txt`.  Next, look for a line:
 
 ![](https://cdn.discordapp.com/attachments/619231812987650059/665629168066887703/unknown.png)
 
