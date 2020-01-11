@@ -1,5 +1,6 @@
 ## Assets
-Asset's for some maps if you want make you own map based on my maps
+Asset needed if you want to edit and develop maps based on mine.
+This brunch contains assets distributed by folders.
 
 #### My maps for games:
 
