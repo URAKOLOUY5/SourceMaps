@@ -1,6 +1,6 @@
 ## Assets
 Asset needed if you want to edit and develop maps based on my maps.
-This brunch contains assets distributed by folders.
+This branch contains assets distributed by folders.
 
 #### My maps for games:
 
