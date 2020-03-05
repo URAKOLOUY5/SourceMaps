@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "68"
+	"mapversion" "71"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "68"
+	"mapversion" "71"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -7619,25 +7619,39 @@ entity
 entity
 {
 	"id" "1857"
-	"classname" "prop_static"
+	"classname" "prop_dynamic_override"
 	"angles" "0 0 0"
-	"disableselfshadowing" "0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"disablevertexlighting" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"ignorenormals" "0"
+	"health" "0"
+	"MaxAnimTime" "10"
 	"maxdxlevel" "0"
+	"MinAnimTime" "5"
 	"mindxlevel" "0"
 	"model" "models/props_c17/tv_monitor01.mdl"
-	"screenspacefade" "0"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
 	"skin" "0"
 	"solid" "6"
+	"spawnflags" "0"
+	"viewhideflags" "0"
 	"origin" "-496 160 46"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -2768]"
@@ -7776,6 +7790,7 @@ entity
 		"OnSpawn" "mainplayer_cutscenecam1,SetParentAttachment,eyes,7.99,-1"
 		"OnSpawn" "snd_player_vo1,PlaySound,,7.69,-1"
 		"OnSpawn" "mainplayer_cutscenecam1,Disable,,31.9,-1"
+		"OnSpawn" "mainplayer_marrq,Kill,,31.9,-1"
 	}
 	"origin" "-266 -151 56"
 	editor
@@ -7958,7 +7973,8 @@ entity
 	"id" "2661"
 	"classname" "info_player_start"
 	"angles" "0 65.53 0"
-	"origin" "-252 -91.5 -3.8147e-006"
+	"spawnflags" "0"
+	"origin" "-252 -91.5 0"
 	editor
 	{
 		"color" "0 255 0"
@@ -7989,8 +8005,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-380.299 -51.3041 101.216]"
-		"look" "[-379.395 -51.6009 100.907]"
+		"position" "[-464.699 176.046 53.0134]"
+		"look" "[-465.578 175.598 52.8466]"
 	}
 }
 cordon
