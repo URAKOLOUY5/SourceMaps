@@ -15,3 +15,4 @@ Source's of my maps for games based on ![](https://cdn.discordapp.com/attachment
 #### My maps for mods:
 
 * ![](https://cdn.discordapp.com/attachments/619231812987650059/665237600566771753/dam_logo.png) Den and Max - Chapter One
+* ![](https://cdn.discordapp.com/attachments/619231812987650059/692447927544578098/brokenhope.png) Broken Hope
