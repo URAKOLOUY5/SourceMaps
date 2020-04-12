@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "111"
+	"mapversion" "112"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "111"
+	"mapversion" "112"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -3319,7 +3319,7 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "4.2"
-	"message" "DAMNBUIDLING"
+	"message" "DAMNBUILDING"
 	"spawnflags" "0"
 	"targetname" "text_maptitle"
 	"x" "-1"
