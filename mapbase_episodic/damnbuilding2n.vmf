@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "232"
+	"mapversion" "234"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "232"
+	"mapversion" "234"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -7577,82 +7577,6 @@ world
 	}
 	solid
 	{
-		"id" "8218"
-		side
-		{
-			"id" "1975"
-			"plane" "(-528 60 111.944) (-524 60 111.944) (-524 4 111.944)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1976"
-			"plane" "(-528 4 -0.0561256) (-524 4 -0.0561256) (-524 60 -0.0561256)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1977"
-			"plane" "(-528 60 111.944) (-528 4 111.944) (-528 4 -0.0561256)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1978"
-			"plane" "(-524 60 -0.0561256) (-524 4 -0.0561256) (-524 4 111.944)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1979"
-			"plane" "(-524 60 111.944) (-528 60 111.944) (-528 60 -0.0561256)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1980"
-			"plane" "(-524 4 -0.0561256) (-528 4 -0.0561256) (-528 4 111.944)"
-			"material" "TOOLS/TOOLSPLAYERCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 158 107"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
 		"id" "4288"
 		side
 		{
@@ -8846,7 +8770,7 @@ entity
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"returndelay" "-1"
-	"skin" "0"
+	"skin" "2"
 	"spawnflags" "8192"
 	"spawnpos" "0"
 	"speed" "100"
@@ -8873,13 +8797,13 @@ entity
 	"forceclosed" "1"
 	"hardware" "1"
 	"health" "0"
-	"model" "models/props_c17/door01_left.mdl"
+	"model" "models/props_db/door01_left.mdl"
 	"modelscale" "1.0"
 	"opendir" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"returndelay" "-1"
-	"skin" "0"
+	"skin" "1"
 	"spawnflags" "10240"
 	"spawnpos" "0"
 	"speed" "100"
@@ -11337,12 +11261,7 @@ entity
 }
 cameras
 {
-	"activecamera" "0"
-	camera
-	{
-		"position" "[-524.655 345.375 56.3967]"
-		"look" "[-521.642 334.912 44.8025]"
-	}
+	"activecamera" "-1"
 }
 cordon
 {
