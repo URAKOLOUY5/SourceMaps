@@ -37,4 +37,4 @@ Finally, you can use my assets in your SDK!
 
 In order to install content you need to pack it in vpk and place it in the folder `content` in the folder `mapbase_episodic` or `mapbase_hl2`.
 
-*If you are interested in creating multichunked VPK, please visit the [Valve's wikipedia page](https://developer.valvesoftware.com/wiki/VPK)*
+*If you are interested in creating VPK, please visit the [Valve's wikipedia page](https://developer.valvesoftware.com/wiki/VPK)*
