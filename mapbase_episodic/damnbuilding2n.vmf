@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "234"
+	"mapversion" "235"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "234"
+	"mapversion" "235"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -10432,7 +10432,7 @@ entity
 			"id" "1771"
 			"plane" "(-240 496 0) (-256 496 0) (-256 496 128)"
 			"material" "U5/DB_TILEWALL007E"
-			"uaxis" "[1 0 0 -256] 0.125"
+			"uaxis" "[1 0 0 -218] 0.125"
 			"vaxis" "[0 0 -1 0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "6"
