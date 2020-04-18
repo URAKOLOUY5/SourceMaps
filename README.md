@@ -1,5 +1,8 @@
-## Source Maps
-Source's of my maps for games based on ![](https://cdn.discordapp.com/attachments/619231812987650059/665236031737692161/sourceengine.png) **Source Engine**
+## Assets
+Asset needed if you want to edit and develop maps based on my maps.
+This branch contains assets distributed by folders.
+
+How to install content check `INSTALLATION.md`
 
 #### My maps for games:
 

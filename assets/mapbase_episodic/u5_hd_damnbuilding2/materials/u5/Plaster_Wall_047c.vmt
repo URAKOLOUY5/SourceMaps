@@ -1,0 +1,6 @@
+SDK_LightmappedGeneric
+{
+	$basetexture "u5/Plaster_Wall_047c_Diffuse"
+	$bumpmap "u5/Plaster_003a_Normal"
+	$surfaceprop Plaster
+}

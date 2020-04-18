@@ -1,0 +1,6 @@
+SDK_LightmappedGeneric
+{
+	$basetexture "u5/DamnBuilding_Concrete_Floor_1a_Diffuse"
+	$bumpmap "u5/DamnBuilding_Concrete_Floor_1a_Normal"
+	$surfaceprop Concrete
+}

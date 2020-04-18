@@ -1,0 +1,9 @@
+SDK_LightmappedGeneric
+{
+	$basetexture "u5/DB_MetalDoor034a"
+	$surfaceprop Metal
+
+	$detail "detail\metal_detail_01"
+	$detailscale 0.283
+	$detailblendfactor 0.65
+}
