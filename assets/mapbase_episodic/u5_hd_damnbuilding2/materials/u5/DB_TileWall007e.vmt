@@ -1,0 +1,12 @@
+SDK_WorldVertexTransition
+{
+	$basetexture "u5/DB_TileWall007e_Diffuse"
+	$bumpmap "u5/DB_TileWall007e_Normal"
+	$surfaceprop Tile
+
+	$basetexture2 "u5/DB_TileWall007h_Diffuse"
+	$bumpmap2 "u5/DB_TileWall007h_Normal"
+	$surfaceprop2 Tile
+
+	$blendmodulatetexture "u5/db_tilewall007h_modulate"
+}

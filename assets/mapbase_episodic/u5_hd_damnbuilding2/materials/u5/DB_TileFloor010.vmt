@@ -1,0 +1,6 @@
+SDK_LightmappedGeneric
+{
+	$basetexture "u5/DB_TileFloor010_Diffuse"
+	$bumpmap "u5/DB_TileFloor010_Normal"
+	$surfaceprop Tile
+}
