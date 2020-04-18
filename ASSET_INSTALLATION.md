@@ -2,11 +2,11 @@
 
 #### Structure of asset archive
 
-To install you should download archive of branch by clicking [download](https://github.com/URAKOLOUY5/SourceMaps/archive/assets.zip)
+To install you should download archive of branch by clicking [download](https://github.com/URAKOLOUY5/SourceMaps/archive/master.zip)
 
 After you have downloaded the archive, there will be the necessary folders:
 
-![](https://cdn.discordapp.com/attachments/619231812987650059/665626496857145354/unknown.png)
+![](https://cdn.discordapp.com/attachments/619231812987650059/701137988771643402/unknown.png)
 
 Theres folder **assets** - is a root folder. It contain **gamename** (for example `mapbase_episodic`). 
 
