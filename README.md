@@ -7,7 +7,7 @@ Source's of my maps for games based on ![](https://cdn.discordapp.com/attachment
 Asset needed if you want to edit and develop maps based on my maps.
 This branch contains also assets distributed by folders.
 
-How to install content check `INSTALLATION.md`
+How to install content check `ASSET_INSTALLATION.md`
 
 #### My maps for games:
 
