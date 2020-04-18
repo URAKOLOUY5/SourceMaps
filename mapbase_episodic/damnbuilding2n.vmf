@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "230"
+	"mapversion" "231"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "230"
+	"mapversion" "231"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -8840,7 +8840,7 @@ entity
 	"forceclosed" "1"
 	"hardware" "1"
 	"health" "0"
-	"model" "models/props_c17/door01_left.mdl"
+	"model" "models/props_db/door01_left.mdl"
 	"modelscale" "1.0"
 	"opendir" "0"
 	"renderamt" "255"
@@ -11340,8 +11340,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-313.209 332.546 101.417]"
-		"look" "[-328.774 335.05 99.314]"
+		"position" "[-544.667 463.263 126.532]"
+		"look" "[-542.305 450.954 116.74]"
 	}
 }
 cordon
