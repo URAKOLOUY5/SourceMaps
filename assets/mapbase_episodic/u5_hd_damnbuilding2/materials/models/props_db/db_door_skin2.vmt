@@ -1,6 +1,6 @@
 SDK_VertexLitGeneric
 {
-	$basetexture "models/prop_db/db_door_skin2"
+	$basetexture "models/props_db/db_door_skin2"
 
 	$detail "detail\metal_detail_01"
 	$detailblendfactor 0.65
