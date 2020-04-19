@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "304"
+	"mapversion" "305"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "304"
+	"mapversion" "305"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -16000,7 +16000,7 @@ entity
 	"maxfalloff" "-1"
 	"maxweight" "1.0"
 	"minfalloff" "-1"
-	"StartDisabled" "0"
+	"StartDisabled" "1"
 	"targetname" "intro_colorcorrection1"
 	"origin" "-265 352 70.02"
 	editor
