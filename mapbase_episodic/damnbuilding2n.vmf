@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "319"
+	"mapversion" "325"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "319"
+	"mapversion" "325"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -16180,14 +16180,14 @@ entity
 {
 	"id" "12563"
 	"classname" "logic_relay"
-	"spawnflags" "1"
-	"StartDisabled" "1"
+	"spawnflags" "0"
+	"StartDisabled" "0"
 	"targetname" "relay_takenhealth"
 	connections
 	{
-		"OnTrigger" "logic_playerproxy,GiveWeapon,item_suit,0,-1"
-		"OnTrigger" "relay_displaynewtask,Trigger,,4,-1"
-		"OnTrigger" "text_newtask,SetText,New objective: Get out of here,3.99,-1"
+		"OnTrigger" "p_clientcommands,Command,give item_suit,0,1"
+		"OnTrigger" "relay_displaynewtask,Trigger,,4,1"
+		"OnTrigger" "text_newtask,SetText,New objective: Get out of here,3.99,1"
 	}
 	"origin" "88 -1008 8"
 	editor
@@ -16201,7 +16201,7 @@ entity
 entity
 {
 	"id" "12576"
-	"classname" "point_clientcommand"
+	"classname" "point_servercommand"
 	"targetname" "p_clientcommands"
 	"origin" "104 -1008 8"
 	editor
