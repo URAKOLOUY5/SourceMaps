@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "349"
+	"mapversion" "350"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "349"
+	"mapversion" "350"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -20589,7 +20589,7 @@ entity
 	"id" "14249"
 	"classname" "env_physexplosion"
 	"inner_radius" "0"
-	"magnitude" "5"
+	"magnitude" "3"
 	"radius" "0"
 	"spawnflags" "1"
 	"targetentityname" "prop_storagelamp"
