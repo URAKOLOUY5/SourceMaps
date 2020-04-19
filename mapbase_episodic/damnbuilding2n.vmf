@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "272"
+	"mapversion" "275"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "272"
+	"mapversion" "275"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -11459,6 +11459,8 @@ entity
 		"OnTrigger" "env_pt_dynamiclight,TurnOn,,14,-1"
 		"OnTrigger" "relay_intro_end,Trigger,,24.95,-1"
 		"OnTrigger" "snd_intro_music,PlaySound,,0,-1"
+		"OnTrigger" "duty_fuckbag_1,SetAnimation,posestay_1,14,-1"
+		"OnTrigger" "duty_fuckbag_2,SetAnimation,posestay_2,14,-1"
 	}
 	"origin" "-224 208 28"
 	editor
@@ -11831,7 +11833,6 @@ entity
 	"id" "2434"
 	"classname" "prop_dynamic_override"
 	"angles" "0 328 0"
-	"DefaultAnim" "posestay_1"
 	"DisableBoneFollowers" "0"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
@@ -11874,7 +11875,6 @@ entity
 	"id" "2444"
 	"classname" "prop_dynamic_override"
 	"angles" "0 219 0"
-	"DefaultAnim" "posestay_2"
 	"DisableBoneFollowers" "0"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
@@ -12031,7 +12031,7 @@ entity
 	"targetname" "relay_intro_end"
 	connections
 	{
-		"OnSpawn" "duty_fuckbag_2,Kill,,0,-1"
+		"OnTrigger" "duty_fuckbag_2,Kill,,0,-1"
 		"OnTrigger" "intro_fade_openeyes,Fade,,4,-1"
 		"OnTrigger" "maxim_camera,SetAnimation,cutscene_wokeduped,4,-1"
 		"OnTrigger" "player_intro_wokeup,Disable,,4,-1"
