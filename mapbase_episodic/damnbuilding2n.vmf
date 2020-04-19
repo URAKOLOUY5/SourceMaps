@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "303"
+	"mapversion" "304"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "303"
+	"mapversion" "304"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -12128,6 +12128,7 @@ entity
 		"OnTrigger" "light_glow,Kill,,17.01,-1"
 		"OnTrigger" "player_intro_wokeup2,SetParentAttachment,eyes,5.7,-1"
 		"OnTrigger" "snd_bodyhit,PlaySound,,6.33,-1"
+		"OnTrigger" "intro_colorcorrection1,Enable,,6.34,-1"
 	}
 	"origin" "-224 208 44"
 	editor
@@ -15993,8 +15994,9 @@ entity
 {
 	"id" "12019"
 	"classname" "color_correction"
-	"fadeInDuration" "0.0"
-	"fadeOutDuration" "3.0"
+	"fadeInDuration" "3.0"
+	"fadeOutDuration" "4.9"
+	"filename" "raw/intro_wakeuppain.raw"
 	"maxfalloff" "-1"
 	"maxweight" "1.0"
 	"minfalloff" "-1"
