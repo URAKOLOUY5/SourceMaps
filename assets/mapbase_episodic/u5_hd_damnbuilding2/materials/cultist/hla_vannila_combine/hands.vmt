@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	$BaseTexture 			   "cultist\hla_vannila_combine\hands"
+	$BumpMap 				   "cultist\hla_vannila_combine\hands_n"
+
+	$phong 					   1
+	$phongboost 			   0.88
+	$phongfresnelranges 	   "[0.18 0.941 11]"
+	$phongexponenttexture      "cultist\hla_vannila_combine\hands_exp"
+
+	$blendTintByBaseAlpha	   1
+	$color2 				   "[0.5 0.5 0.5]"
+
+	$detail 				   "cultist\hla_vannila_combine\hands_ao"
+	$detailscale 			   1
+	$detailblendfactor 	   	   1
+	$detailblendmode 		   0
+
+	$rimlight                  1
+	$rimlightexponent          2
+	$rimlightboost             .2
+}

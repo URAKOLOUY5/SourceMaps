@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	$BaseTexture 			   "cultist\hla_vannila_combine\head_3"
+	$BumpMap 				   "cultist\hla_vannila_combine\head_n"
+
+	$phong 					   1
+	$phongboost 			   0.5
+	$phongfresnelranges 	   "[0.26 0.872 10]"
+	$phongexponenttexture      "cultist\hla_vannila_combine\head_exp"
+
+	$detail 				   "cultist\hla_vannila_combine\head_glow"
+	$detailscale 			   1
+	$detailblendfactor 	   	   1
+	$detailblendmode 		   1
+
+	$rimlight                  1
+	$rimlightexponent          4
+	$rimlightboost             .2
+
+	$selfillum				   1
+	$selfillumtint			   "[1 8.75 7.5]"
+	$selfillummask			   "cultist\hla_vannila_combine\head_glow"
+}

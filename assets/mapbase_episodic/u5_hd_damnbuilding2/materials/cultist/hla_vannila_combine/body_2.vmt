@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	$BaseTexture 			   "cultist\hla_vannila_combine\body_2"
+	$BumpMap 				   "cultist\hla_vannila_combine\body_n"
+
+	$phong 					   1
+	$phongboost 			   0.25
+	$phongfresnelranges 	   "[0.2 0.4 10]"
+	$phongexponenttexture      "cultist\hla_vannila_combine\body_exp"
+
+	$rimlight                  1
+	$rimlightexponent          10
+	$rimlightboost             .2
+}

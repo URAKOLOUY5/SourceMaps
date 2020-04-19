@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+//Basic
+	"$BaseTexture" 			    "cultist\hla_vannila_combine/gloves"
+	"$BumpMap" 				    "cultist\hla_vannila_combine/gloves_n"
+}
