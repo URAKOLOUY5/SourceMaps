@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "298"
+	"mapversion" "303"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "298"
+	"mapversion" "303"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -11638,12 +11638,12 @@ entity
 	"fadeInDuration" "0.0"
 	"fadeOutDuration" "3.0"
 	"filename" "raw/intro_neardeathvision.raw"
-	"maxfalloff" "908"
+	"maxfalloff" "719"
 	"maxweight" "1.0"
 	"minfalloff" "0.0"
 	"StartDisabled" "0"
 	"targetname" "intro_colorcorrection"
-	"origin" "-252 244 70.02"
+	"origin" "-264 456 70.02"
 	editor
 	{
 		"color" "220 30 220"
@@ -15987,6 +15987,26 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 11500]"
+	}
+}
+entity
+{
+	"id" "12019"
+	"classname" "color_correction"
+	"fadeInDuration" "0.0"
+	"fadeOutDuration" "3.0"
+	"maxfalloff" "-1"
+	"maxweight" "1.0"
+	"minfalloff" "-1"
+	"StartDisabled" "0"
+	"targetname" "intro_colorcorrection1"
+	"origin" "-265 352 70.02"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
 	}
 }
 cameras
