@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "265"
+	"mapversion" "266"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "265"
+	"mapversion" "266"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -14755,7 +14755,6 @@ entity
 	"wait" "10"
 	connections
 	{
-		"OnKilled" "ambient_introroomm,Enable,,0,-1"
 		"OnEndFollow" "relay_displaynewtask,Trigger,,5,-1"
 		"OnEndFollow" "text_newtask,SetText,New Objective: Find the healthkit,0,-1"
 	}
