@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "270"
+	"mapversion" "271"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "270"
+	"mapversion" "271"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -1734,11 +1734,11 @@ world
 		{
 			"id" "1022"
 			"plane" "(-528 -32 0) (-528 96 0) (-512 96 0)"
-			"material" "WOOD/WOODSTAIR002A"
-			"uaxis" "[0 1 0 96] 0.25"
-			"vaxis" "[1 0 0 121] 0.25"
-			"rotation" "90"
-			"lightmapscale" "10"
+			"material" "U5/DB_CONCRETEFLOOR_013A"
+			"uaxis" "[0.707107 0.707107 0 96] 0.25"
+			"vaxis" "[0.707107 -0.707107 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
