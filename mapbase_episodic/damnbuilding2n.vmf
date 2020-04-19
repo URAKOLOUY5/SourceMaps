@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "287"
+	"mapversion" "288"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "287"
+	"mapversion" "288"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -15251,7 +15251,7 @@ entity
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
 	"parentname" "prop_storagelamp"
-	"renderamt" "255"
+	"renderamt" "190"
 	"rendercolor" "255 247 198"
 	"renderfx" "0"
 	"rendermode" "0"
