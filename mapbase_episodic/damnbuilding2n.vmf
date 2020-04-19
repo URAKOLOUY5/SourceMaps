@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "266"
+	"mapversion" "268"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "266"
+	"mapversion" "268"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -11918,7 +11918,7 @@ entity
 	"classname" "ambient_generic"
 	"cspinup" "0"
 	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
+	"fadeoutsecs" "5"
 	"health" "10"
 	"lfomodpitch" "0"
 	"lfomodvol" "0"
@@ -11930,7 +11930,7 @@ entity
 	"preset" "0"
 	"radius" "1250"
 	"soundflags" "0"
-	"spawnflags" "49"
+	"spawnflags" "17"
 	"spindown" "0"
 	"spinup" "0"
 	"targetname" "snd_intro_music"
