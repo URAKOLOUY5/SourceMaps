@@ -1,9 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture"    	"models/Humans/Male/Soldier/CitizenSoldier_Sheet.vtf"
-	"$surfaceprop" "flesh"
-      "$model" "1"
-}
-
-
-
