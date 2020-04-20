@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "424"
+	"mapversion" "425"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "424"
+	"mapversion" "425"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -2115,9 +2115,9 @@ world
 			"id" "1075"
 			"plane" "(-672 -64 0) (-672 512 0) (-528 512 0)"
 			"material" "U5/DB_CONCRETEFLOOR_013A"
-			"uaxis" "[0.707107 0.707107 0 96] 0.25"
-			"vaxis" "[0.707107 -0.707107 0 0] 0.25"
-			"rotation" "45"
+			"uaxis" "[-0.707107 0.707107 0 0] 0.25"
+			"vaxis" "[0.707107 0.707107 0 0] 0.25"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -2267,9 +2267,9 @@ world
 			"id" "1111"
 			"plane" "(-528 -128 0) (-672 -128 0) (-672 -64 0)"
 			"material" "U5/DB_CONCRETEFLOOR_013A"
-			"uaxis" "[0.707107 0.707107 0 96] 0.25"
-			"vaxis" "[0.707107 -0.707107 0 0] 0.25"
-			"rotation" "45"
+			"uaxis" "[-0.707107 0.707107 0 0] 0.25"
+			"vaxis" "[0.707107 0.707107 0 0] 0.25"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -42716,8 +42716,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[231.653 347.965 570.719]"
-		"look" "[234.511 350.2 570.617]"
+		"position" "[-598.055 -241.035 151.944]"
+		"look" "[-595.333 -240.211 149.69]"
 	}
 }
 cordon
