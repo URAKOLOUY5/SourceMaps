@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "2"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "1"
 }
 world
@@ -42704,8 +42704,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-39.3328 -209.797 581.771]"
-		"look" "[-38.1975 -212.974 583.107]"
+		"position" "[-299.509 -808.18 1438.6]"
+		"look" "[-299.509 -808.18 1434.98]"
 	}
 }
 cordon
