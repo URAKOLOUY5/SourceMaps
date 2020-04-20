@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "423"
+	"mapversion" "424"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "423"
+	"mapversion" "424"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -19808,7 +19808,7 @@ world
 			"id" "6447"
 			"plane" "(384 368 512) (16 368 512) (16 368 640)"
 			"material" "U5/PLASTER_WALL_047B"
-			"uaxis" "[1 0 0 128] 0.125"
+			"uaxis" "[1 0 0 0] 0.125"
 			"vaxis" "[0 0 -1 0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -42716,8 +42716,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[188.75 305.465 572.394]"
-		"look" "[191.608 307.7 572.293]"
+		"position" "[231.653 347.965 570.719]"
+		"look" "[234.511 350.2 570.617]"
 	}
 }
 cordon
