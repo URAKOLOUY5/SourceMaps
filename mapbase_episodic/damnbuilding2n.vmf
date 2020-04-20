@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "409"
+	"mapversion" "415"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "409"
+	"mapversion" "415"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -41694,7 +41694,7 @@ entity
 		"OnPass" "snd_elevding,PlaySound,,1,-1"
 		"OnPass" "prop_elevdoor,SetAnimation,open,2,-1"
 	}
-	"origin" "0 -500 80"
+	"origin" "0 -500 74"
 	editor
 	{
 		"color" "255 192 0"
@@ -41788,7 +41788,7 @@ entity
 	{
 		"OnPass" "snd_elevding1,PlaySound,,0,-1"
 	}
-	"origin" "0 -500 596"
+	"origin" "0 -500 604"
 	editor
 	{
 		"color" "255 192 0"
@@ -41815,7 +41815,7 @@ entity
 	"MoveSoundMinPitch" "60"
 	"MoveSoundMinTime" "0"
 	"orientationtype" "1"
-	"origin" "0 -500 596"
+	"origin" "0 -500 604"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -41837,7 +41837,7 @@ entity
 		side
 		{
 			"id" "8836"
-			"plane" "(-12 -496 604) (12 -496 604) (12 -504 604)"
+			"plane" "(-12 -504 612) (-12 -496 612) (12 -496 612)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 16] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -41848,7 +41848,7 @@ entity
 		side
 		{
 			"id" "8835"
-			"plane" "(-12 -504 588) (12 -504 588) (12 -496 588)"
+			"plane" "(-12 -496 596) (-12 -504 596) (12 -504 596)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 16] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -41859,10 +41859,10 @@ entity
 		side
 		{
 			"id" "8834"
-			"plane" "(-12 -496 604) (-12 -504 604) (-12 -504 588)"
+			"plane" "(-12 -504 596) (-12 -496 596) (-12 -496 612)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -41870,10 +41870,10 @@ entity
 		side
 		{
 			"id" "8833"
-			"plane" "(12 -496 588) (12 -504 588) (12 -504 604)"
+			"plane" "(12 -496 596) (12 -504 596) (12 -504 612)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -41881,10 +41881,10 @@ entity
 		side
 		{
 			"id" "8832"
-			"plane" "(12 -496 604) (-12 -496 604) (-12 -496 588)"
+			"plane" "(-12 -496 596) (12 -496 596) (12 -496 612)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 16] 0.25"
-			"vaxis" "[0 0 -1 16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -41892,10 +41892,10 @@ entity
 		side
 		{
 			"id" "8831"
-			"plane" "(12 -504 588) (-12 -504 588) (-12 -504 604)"
+			"plane" "(12 -504 596) (-12 -504 596) (-12 -504 612)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 16] 0.25"
-			"vaxis" "[0 0 -1 16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -42549,6 +42549,7 @@ entity
 	"locked_sound" "0"
 	"movedir" "0 0 0"
 	"origin" "49 -379 566"
+	"parentname" "prop_elev"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -42564,6 +42565,7 @@ entity
 	{
 		"OnPressed" "prop_elevdoor,SetAnimation,close,1,-1"
 		"OnPressed" "ent_elev_tt,StartBackward,,2,-1"
+		"OnPressed" "!self,Disable,,1,-1"
 	}
 	solid
 	{
@@ -42681,13 +42683,32 @@ entity
 		"logicalpos" "[0 -7268]"
 	}
 }
+entity
+{
+	"id" "21387"
+	"classname" "logic_relay"
+	"StartDisabled" "0"
+	"targetname" "relay_prehealthelev"
+	connections
+	{
+		"OnTrigger" "text_ycue,Display,,0,-1"
+	}
+	"origin" "4 -296 579.294"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -11268]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[25.465 -391.14 588.825]"
-		"look" "[28.4314 -390.561 586.817]"
+		"position" "[-18.841 -191.138 604.678]"
+		"look" "[-18.2198 -194.638 603.948]"
 	}
 }
 cordon
