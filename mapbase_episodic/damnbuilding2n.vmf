@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "398"
+	"mapversion" "400"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "398"
+	"mapversion" "400"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -39831,6 +39831,7 @@ entity
 	connections
 	{
 		"OnPressed" "relay_prehealthelev,Trigger,,0,-1"
+		"OnPressed" "relay_elevator,Trigger,,0,-1"
 	}
 	solid
 	{
@@ -41904,8 +41905,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-73.3064 -223.278 89.6996]"
-		"look" "[-72.6313 -226.62 88.4585]"
+		"position" "[-1.97598 -208.87 89.6996]"
+		"look" "[-1.30087 -212.212 88.4585]"
 	}
 }
 cordon
