@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "419"
+	"mapversion" "420"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "419"
+	"mapversion" "420"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -35062,7 +35062,7 @@ entity
 	"enableshadows" "1"
 	"farz" "404.0"
 	"lightcolor" "238 235 223 200"
-	"lightfov" "90.0"
+	"lightfov" "110.0"
 	"lighthorfov" "0"
 	"lightonlytarget" "0"
 	"lightworld" "1"
@@ -42704,8 +42704,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-57.5144 -494.45 631.868]"
-		"look" "[-55.9669 -495.555 628.777]"
+		"position" "[-89.6565 -1059.61 94.6189]"
+		"look" "[-86.0916 -1059.35 95.2491]"
 	}
 }
 cordon
