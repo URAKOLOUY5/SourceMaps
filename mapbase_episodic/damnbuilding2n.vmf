@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "422"
+	"mapversion" "423"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "422"
+	"mapversion" "423"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -41010,7 +41010,7 @@ entity
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
 	"_inner_cone" "30"
-	"_light" "211 207 150 200"
+	"_light" "211 207 150 600"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
@@ -42716,8 +42716,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-18.3259 -123.893 677.997]"
-		"look" "[-17.6069 -127.269 676.876]"
+		"position" "[199.092 278.417 572.631]"
+		"look" "[201.949 280.651 572.53]"
 	}
 }
 cordon
