@@ -2,5 +2,6 @@
 *.log
 *.prt
 *.vmx
+*.lin
 mapbase_episodic/hd_texturetest.vmf
 mapbase_episodic/soundtext.vmf
