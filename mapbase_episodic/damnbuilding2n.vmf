@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "426"
+	"mapversion" "428"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "426"
+	"mapversion" "428"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -41564,7 +41564,7 @@ entity
 		"OnPass" "snd_elevding,PlaySound,,1,-1"
 		"OnPass" "prop_elevdoor,SetAnimation,open,2,-1"
 	}
-	"origin" "0 -500 80"
+	"origin" "0 -500 72"
 	editor
 	{
 		"color" "255 192 0"
@@ -42424,7 +42424,7 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"sounds" "0"
+	"sounds" "17"
 	"spawnflags" "1025"
 	"speed" "5"
 	"unlocked_sentence" "0"
@@ -42716,8 +42716,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-139.748 -1042.94 100.993]"
-		"look" "[-143.218 -1043.21 99.9689]"
+		"position" "[-83.6722 -418.933 49.243]"
+		"look" "[-80.0613 -419.285 49.1923]"
 	}
 }
 cordon
