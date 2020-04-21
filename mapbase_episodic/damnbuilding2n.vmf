@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "452"
+	"mapversion" "455"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "1"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "452"
+	"mapversion" "455"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -34449,6 +34449,7 @@ entity
 	"_zero_percent_distance" "0"
 	"spawnflags" "0"
 	"style" "0"
+	"targetname" "light_storagesequence1"
 	"origin" "-320 -596 92"
 	editor
 	{
@@ -37913,13 +37914,14 @@ entity
 	"angles" "0 0 0"
 	"orientationtype" "1"
 	"radius" "0"
-	"speed" "0"
+	"speed" "500"
+	"target" "first_sight_of_horror_path3"
 	"targetname" "first_sight_of_horror_path2"
 	connections
 	{
 		"OnPass" "first_sight_of_horror,Kill,,0,-1"
 	}
-	"origin" "-316 -840 152"
+	"origin" "-320 -688 128"
 	editor
 	{
 		"color" "255 192 0"
@@ -37955,6 +37957,7 @@ entity
 		"OnTrigger" "light_storagesequence,TurnOff,,0.9,1"
 		"OnTrigger" "light_storagesequence,TurnOn,,4.35,1"
 		"OnTrigger" "light_storagesequence_candlec,TurnOff,,4.35,1"
+		"OnTrigger" "vent_br_broken,EnableDraw,,0,-1"
 	}
 	solid
 	{
@@ -41545,7 +41548,7 @@ entity
 	"id" "20174"
 	"classname" "env_projectedtexture"
 	"alwaysdraw" "0"
-	"angles" "90 0 0"
+	"angles" "60.5 90 90"
 	"brightnessscale" "2.0"
 	"cameraspace" "0"
 	"colortransitiontime" "1"
@@ -41554,7 +41557,7 @@ entity
 	"enableshadows" "1"
 	"farz" "750.0"
 	"lightcolor" "242 240 223 200"
-	"lightfov" "120.0"
+	"lightfov" "160.0"
 	"lighthorfov" "0"
 	"lightonlytarget" "0"
 	"lightworld" "1"
@@ -42773,13 +42776,61 @@ entity
 		"logicalpos" "[0 -8268]"
 	}
 }
+entity
+{
+	"id" "22683"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "140 136 96 30"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"spawnflags" "1"
+	"style" "8"
+	"targetname" "light_storagesequence_candlec1"
+	"origin" "-304 -596 92"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 15000]"
+	}
+}
+entity
+{
+	"id" "22733"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"radius" "0"
+	"speed" "0"
+	"targetname" "first_sight_of_horror_path3"
+	connections
+	{
+		"OnPass" "first_sight_of_horror,Kill,,0,-1"
+	}
+	"origin" "-320 -400 128"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -3268]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-69.9656 -522.989 163.26]"
-		"look" "[-68.4529 -519.817 162.358]"
+		"position" "[26.9627 -1019.88 72.0518]"
+		"look" "[23.4496 -1020.52 71.4105]"
 	}
 }
 cordon
