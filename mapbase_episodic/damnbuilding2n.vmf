@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "428"
+	"mapversion" "435"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "1"
 }
 world
 {
 	"id" "1"
-	"mapversion" "428"
+	"mapversion" "435"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -41551,30 +41551,6 @@ entity
 }
 entity
 {
-	"id" "20306"
-	"classname" "path_track"
-	"angles" "0 0 0"
-	"orientationtype" "0"
-	"radius" "0"
-	"spawnflags" "0"
-	"speed" "0"
-	"targetname" "elev_path2"
-	connections
-	{
-		"OnPass" "snd_elevding,PlaySound,,1,-1"
-		"OnPass" "prop_elevdoor,SetAnimation,open,2,-1"
-	}
-	"origin" "0 -500 72"
-	editor
-	{
-		"color" "255 192 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -8268]"
-	}
-}
-entity
-{
 	"id" "20401"
 	"classname" "ambient_generic"
 	"cspinup" "0"
@@ -41631,7 +41607,6 @@ entity
 	"shadowatten" "0.0"
 	"shadowquality" "1"
 	"spawnflags" "3"
-	"target" "prop_elev"
 	"textureframe" "0"
 	"texturename" "effects/flashlight001"
 	"origin" "-8 -416 632"
@@ -42711,13 +42686,77 @@ entity
 		"logicalpos" "[0 4500]"
 	}
 }
+entity
+{
+	"id" "22061"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "0"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "0"
+	"targetname" "elev_path3"
+	connections
+	{
+		"OnPass" "snd_elevding,PlaySound,,1,-1"
+		"OnPass" "prop_elevdoor,SetAnimation,open,2,-1"
+	}
+	"origin" "0 -500 68"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -8268]"
+	}
+}
+entity
+{
+	"id" "22121"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "0"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "20"
+	"target" "elev_path3"
+	"targetname" "elev_path4"
+	"origin" "0 -500 128"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -8268]"
+	}
+}
+entity
+{
+	"id" "20306"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "0"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "100"
+	"target" "elev_path4"
+	"targetname" "elev_path2"
+	"origin" "0 -500 184"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -8268]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-83.6722 -418.933 49.243]"
-		"look" "[-80.0613 -419.285 49.1923]"
+		"position" "[-31.6586 -375.652 118.479]"
+		"look" "[-31.0067 -378.799 116.796]"
 	}
 }
 cordon
