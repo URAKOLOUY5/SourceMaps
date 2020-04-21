@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "435"
+	"mapversion" "452"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -15,12 +15,12 @@ viewsettings
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "1"
-	"bShow3DGrid" "1"
+	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "435"
+	"mapversion" "452"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -39814,11 +39814,12 @@ entity
 {
 	"id" "15914"
 	"classname" "logic_relay"
+	"spawnflags" "0"
 	"StartDisabled" "1"
 	"targetname" "relay_elevator"
 	connections
 	{
-		"OnTrigger" "ent_elev_tt,StartForward,,0,-1"
+		"OnTrigger" "ent_elev_tt,StartForward,,1.1,-1"
 	}
 	"origin" "-85 -312 24.9935"
 	editor
@@ -39853,49 +39854,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
-	}
-}
-entity
-{
-	"id" "16342"
-	"classname" "prop_dynamic"
-	"angles" "0 90 0"
-	"DisableBoneFollowers" "0"
-	"disablereceiveshadows" "1"
-	"disableshadows" "1"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"maxdxlevel" "0"
-	"MinAnimTime" "5"
-	"mindxlevel" "0"
-	"model" "models/props_c17/undergroundelevator.mdl"
-	"modelscale" "1.0"
-	"parentname" "ent_elev_tt"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "229 229 229"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"StartDisabled" "0"
-	"targetname" "prop_elev"
-	"viewhideflags" "0"
-	"origin" "0 -418 508"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
 	}
 }
 entity
@@ -41036,6 +40994,7 @@ entity
 	"angles" "0 90 0"
 	"DisableBoneFollowers" "0"
 	"disablereceiveshadows" "0"
+	"disableshadows" "1"
 	"ExplodeDamage" "0"
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
@@ -41629,135 +41588,13 @@ entity
 	"speed" "0"
 	"target" "elev_path2"
 	"targetname" "elev_path1"
-	connections
-	{
-		"OnPass" "snd_elevding1,PlaySound,,0,-1"
-	}
-	"origin" "0 -500 587"
+	"origin" "-1 -415 675"
 	editor
 	{
 		"color" "255 192 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -8268]"
-	}
-}
-entity
-{
-	"id" "20514"
-	"classname" "func_tracktrain"
-	"bank" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"dmg" "0"
-	"height" "4"
-	"ManualAccelSpeed" "0"
-	"ManualDecelSpeed" "0"
-	"ManualSpeedChanges" "0"
-	"MoveSound" "eli_lab.elevator_move"
-	"MoveSoundMaxPitch" "200"
-	"MoveSoundMaxTime" "0"
-	"MoveSoundMinPitch" "60"
-	"MoveSoundMinTime" "0"
-	"orientationtype" "1"
-	"origin" "0 -500 587"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"spawnflags" "16"
-	"speed" "0"
-	"StartSound" "d3_citadel.small_elevator_start"
-	"startspeed" "100"
-	"StopSound" "eli_lab.elevator_stop"
-	"target" "elev_path1"
-	"targetname" "ent_elev_tt"
-	"velocitytype" "0"
-	"viewhideflags" "0"
-	"volume" "10"
-	"wheels" "50"
-	solid
-	{
-		"id" "20505"
-		side
-		{
-			"id" "8836"
-			"plane" "(-12 -504 595) (-12 -496 595) (12 -496 595)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 16] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8835"
-			"plane" "(-12 -496 579) (-12 -504 579) (12 -504 579)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 16] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8834"
-			"plane" "(-12 -504 579) (-12 -496 579) (-12 -496 595)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 -20] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8833"
-			"plane" "(12 -496 579) (12 -504 579) (12 -504 595)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 -20] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8832"
-			"plane" "(-12 -496 579) (12 -496 579) (12 -496 595)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 16] 0.25"
-			"vaxis" "[0 0 -1 -20] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8831"
-			"plane" "(12 -504 579) (-12 -504 579) (-12 -504 595)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 16] 0.25"
-			"vaxis" "[0 0 -1 -20] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -6268]"
 	}
 }
 entity
@@ -42409,8 +42246,8 @@ entity
 	connections
 	{
 		"OnPressed" "prop_elevdoor,SetAnimation,close,1,-1"
-		"OnPressed" "ent_elev_tt,StartBackward,,2,-1"
-		"OnPressed" "!self,Disable,,1,-1"
+		"OnPressed" "ent_elev_tt,StartForward,,2,-1"
+		"OnPressed" "!self,Lock,,1,-1"
 	}
 	solid
 	{
@@ -42694,14 +42531,16 @@ entity
 	"orientationtype" "0"
 	"radius" "0"
 	"spawnflags" "0"
-	"speed" "0"
+	"speed" "50"
+	"target" "elev_path5"
 	"targetname" "elev_path3"
 	connections
 	{
 		"OnPass" "snd_elevding,PlaySound,,1,-1"
 		"OnPass" "prop_elevdoor,SetAnimation,open,2,-1"
+		"OnPass" "ent_elev_tt,Stop,,0,-1"
 	}
-	"origin" "0 -500 68"
+	"origin" "-1 -415 154"
 	editor
 	{
 		"color" "255 192 0"
@@ -42718,10 +42557,10 @@ entity
 	"orientationtype" "0"
 	"radius" "0"
 	"spawnflags" "0"
-	"speed" "20"
+	"speed" "50"
 	"target" "elev_path3"
 	"targetname" "elev_path4"
-	"origin" "0 -500 128"
+	"origin" "-1 -415 205"
 	editor
 	{
 		"color" "255 192 0"
@@ -42741,7 +42580,191 @@ entity
 	"speed" "100"
 	"target" "elev_path4"
 	"targetname" "elev_path2"
-	"origin" "0 -500 184"
+	"origin" "-1 -415 240"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -8268]"
+	}
+}
+entity
+{
+	"id" "16342"
+	"classname" "prop_dynamic"
+	"angles" "0 90 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_c17/undergroundelevator.mdl"
+	"modelscale" "1.0"
+	"parentname" "ent_elev_tt"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "229 229 229"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "prop_elev"
+	"viewhideflags" "0"
+	"origin" "0 -416 506"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "20514"
+	"classname" "func_tracktrain"
+	"bank" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"dmg" "0"
+	"height" "4"
+	"ManualAccelSpeed" "0"
+	"ManualDecelSpeed" "0"
+	"ManualSpeedChanges" "0"
+	"MoveSound" "eli_lab.elevator_move"
+	"MoveSoundMaxPitch" "200"
+	"MoveSoundMaxTime" "0"
+	"MoveSoundMinPitch" "60"
+	"MoveSoundMinTime" "0"
+	"orientationtype" "1"
+	"origin" "-1 -415 675"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"spawnflags" "16"
+	"speed" "0"
+	"StartSound" "d3_citadel.small_elevator_start"
+	"startspeed" "100"
+	"StopSound" "eli_lab.elevator_stop"
+	"target" "elev_path1"
+	"targetname" "ent_elev_tt"
+	"velocitytype" "1"
+	"viewhideflags" "0"
+	"volume" "10"
+	"wheels" "50"
+	solid
+	{
+		"id" "20505"
+		side
+		{
+			"id" "9020"
+			"plane" "(-60 -488 686) (-60 -342 686) (58 -342 686)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9019"
+			"plane" "(-60 -342 664) (-60 -488 664) (58 -488 664)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9018"
+			"plane" "(-60 -488 664) (-60 -342 664) (-60 -342 686)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9017"
+			"plane" "(58 -342 664) (58 -488 664) (58 -488 686)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9016"
+			"plane" "(-60 -342 664) (58 -342 664) (58 -342 686)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 -40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9015"
+			"plane" "(58 -488 664) (-60 -488 664) (-60 -488 686)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 -40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -6268]"
+	}
+}
+entity
+{
+	"id" "22582"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "0"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "100"
+	"targetname" "elev_path5"
+	connections
+	{
+		"OnPass" "snd_elevding1,PlaySound,,1,-1"
+	}
+	"origin" "-1 -415 676"
 	editor
 	{
 		"color" "255 192 0"
@@ -42755,8 +42778,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-31.6586 -375.652 118.479]"
-		"look" "[-31.0067 -378.799 116.796]"
+		"position" "[-69.9656 -522.989 163.26]"
+		"look" "[-68.4529 -519.817 162.358]"
 	}
 }
 cordon
