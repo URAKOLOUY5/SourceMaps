@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "455"
+	"mapversion" "474"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "455"
+	"mapversion" "474"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -2911,7 +2911,7 @@ world
 			"uaxis" "[0 -1 0 -896] 0.125"
 			"vaxis" "[0 0 -1 0.9162] 0.125"
 			"rotation" "0"
-			"lightmapscale" "2"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -3126,9 +3126,9 @@ world
 			"plane" "(-224 -768 0.000842676) (-224 -336 0.00084921) (-224 -336 128)"
 			"material" "U5/PLASTER_WALL_047B"
 			"uaxis" "[0 1 0 640] 0.125"
-			"vaxis" "[0 0 -1 0.916199] 0.125"
+			"vaxis" "[0 0 -1 1] 0.125"
 			"rotation" "0"
-			"lightmapscale" "2"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -3182,7 +3182,7 @@ world
 			"uaxis" "[-0.707107 0.707107 0 0] 0.25"
 			"vaxis" "[0.707107 0.707107 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -3758,7 +3758,7 @@ world
 			"uaxis" "[0 1 0 0] 0.125"
 			"vaxis" "[0 0 -1 0.916199] 0.125"
 			"rotation" "0"
-			"lightmapscale" "2"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -3812,7 +3812,7 @@ world
 			"uaxis" "[-0.707107 0.707107 0 0] 0.25"
 			"vaxis" "[0.707107 0.707107 0 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "8"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -7074,9 +7074,9 @@ world
 			"plane" "(-224 -992 0) (-224 -768 0) (-224 -768 128)"
 			"material" "U5/PLASTER_WALL_047B"
 			"uaxis" "[0 1 0 0] 0.125"
-			"vaxis" "[0 0 -1 0.916199] 0.125"
+			"vaxis" "[0 0 -1 1] 0.125"
 			"rotation" "0"
-			"lightmapscale" "2"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -34109,36 +34109,6 @@ entity
 }
 entity
 {
-	"id" "6432"
-	"classname" "light_spot"
-	"_cone" "60"
-	"_constant_attn" "0"
-	"_distance" "0"
-	"_exponent" "1"
-	"_fifty_percent_distance" "0"
-	"_hardfalloff" "0"
-	"_inner_cone" "10"
-	"_light" "198 192 149 110"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_linear_attn" "0"
-	"_quadratic_attn" "1"
-	"_zero_percent_distance" "0"
-	"angles" "-90 90 0"
-	"pitch" "-90"
-	"spawnflags" "0"
-	"style" "0"
-	"origin" "-320 -594 120"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 15000]"
-	}
-}
-entity
-{
 	"id" "6438"
 	"classname" "prop_static"
 	"angles" "0 90 0"
@@ -34151,36 +34121,6 @@ entity
 	editor
 	{
 		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 15000]"
-	}
-}
-entity
-{
-	"id" "6452"
-	"classname" "light_spot"
-	"_cone" "60"
-	"_constant_attn" "0"
-	"_distance" "0"
-	"_exponent" "1"
-	"_fifty_percent_distance" "0"
-	"_hardfalloff" "0"
-	"_inner_cone" "10"
-	"_light" "198 192 149 110"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_linear_attn" "0"
-	"_quadratic_attn" "1"
-	"_zero_percent_distance" "0"
-	"angles" "-90 90 0"
-	"pitch" "-90"
-	"spawnflags" "0"
-	"style" "0"
-	"origin" "-318 -997 120"
-	editor
-	{
-		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 15000]"
@@ -34439,14 +34379,14 @@ entity
 	"classname" "light"
 	"_constant_attn" "0"
 	"_distance" "0"
-	"_fifty_percent_distance" "0"
+	"_fifty_percent_distance" "60"
 	"_hardfalloff" "0"
 	"_light" "198 192 149 20"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
-	"_zero_percent_distance" "0"
+	"_zero_percent_distance" "200"
 	"spawnflags" "0"
 	"style" "0"
 	"targetname" "light_storagesequence1"
@@ -34781,14 +34721,14 @@ entity
 	"classname" "light"
 	"_constant_attn" "0"
 	"_distance" "0"
-	"_fifty_percent_distance" "0"
+	"_fifty_percent_distance" "60"
 	"_hardfalloff" "0"
 	"_light" "198 192 149 30"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
-	"_zero_percent_distance" "0"
+	"_zero_percent_distance" "200"
 	"spawnflags" "0"
 	"style" "0"
 	"targetname" "light_storagesequence"
@@ -36744,36 +36684,6 @@ entity
 }
 entity
 {
-	"id" "11393"
-	"classname" "light_spot"
-	"_cone" "60"
-	"_constant_attn" "0"
-	"_distance" "0"
-	"_exponent" "1"
-	"_fifty_percent_distance" "0"
-	"_hardfalloff" "0"
-	"_inner_cone" "10"
-	"_light" "198 192 149 20"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_linear_attn" "0"
-	"_quadratic_attn" "1"
-	"_zero_percent_distance" "0"
-	"angles" "-20 268 0"
-	"pitch" "-20"
-	"spawnflags" "0"
-	"style" "0"
-	"origin" "-312 -1024 120"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 15000]"
-	}
-}
-entity
-{
 	"id" "11779"
 	"classname" "prop_dynamic"
 	"angles" "0 90 0"
@@ -37919,9 +37829,12 @@ entity
 	"targetname" "first_sight_of_horror_path2"
 	connections
 	{
-		"OnPass" "first_sight_of_horror,Kill,,0,-1"
+		"OnPass" "light_storagesequence1,TurnOff,,0,-1"
+		"OnPass" "light_storagesequence_candlec1,TurnOn,,0,-1"
+		"OnPass" "light_storagesequence_candlec1,TurnOff,,2.1,-1"
+		"OnPass" "light_storagesequence1,TurnOn,,2.1,-1"
 	}
-	"origin" "-320 -688 128"
+	"origin" "-320 -656 128"
 	editor
 	{
 		"color" "255 192 0"
@@ -41223,14 +41136,14 @@ entity
 	"classname" "light"
 	"_constant_attn" "0"
 	"_distance" "0"
-	"_fifty_percent_distance" "0"
+	"_fifty_percent_distance" "60"
 	"_hardfalloff" "0"
 	"_light" "140 136 96 30"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
-	"_zero_percent_distance" "0"
+	"_zero_percent_distance" "200"
 	"spawnflags" "1"
 	"style" "8"
 	"targetname" "light_storagesequence_candlec"
@@ -42782,14 +42695,14 @@ entity
 	"classname" "light"
 	"_constant_attn" "0"
 	"_distance" "0"
-	"_fifty_percent_distance" "0"
+	"_fifty_percent_distance" "60"
 	"_hardfalloff" "0"
 	"_light" "140 136 96 30"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
-	"_zero_percent_distance" "0"
+	"_zero_percent_distance" "200"
 	"spawnflags" "1"
 	"style" "8"
 	"targetname" "light_storagesequence_candlec1"
@@ -42829,8 +42742,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[26.9627 -1019.88 72.0518]"
-		"look" "[23.4496 -1020.52 71.4105]"
+		"position" "[-288.519 -1017.01 39.1672]"
+		"look" "[-286.063 -1019.68 39.0829]"
 	}
 }
 cordon
