@@ -1,0 +1,7 @@
+SDK_UnlitGeneric
+{
+	$basetexture "skybox/dam_morningdn"
+
+	$ignorez 1
+	$nofog 1
+}
