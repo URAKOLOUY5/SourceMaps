@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models\rusty\Bicycle\bicycle_frame_03"
+	"$bumpmap" 		"models\rusty\Bicycle\bicycle_frame_nm"
+	
+	$halflambert 1
+	$nocull 1
+	
+	$detail "models\vindictus\shared\detail\detail_metal7"
+	$detailscale 12
+	$detailblendfactor 1.25
+	
+	$lightwarptexture	"models\vindictus\shared\lightwarp_metallic"
+
+	$phong 1
+	$phongexponenttexture	"models\vindictus\shared\albedo_tintdefine"
+	$phongalbedotint 1
+	$phongexponent 5
+    $phongboost	20
+	$phongwarptexture "models\vindictus\shared\phongwarp_metal2" 
+	$phongfresnelranges	"[0.5 1.5 8.0]"
+	
+	$rimlight 1
+	$rimlighexponent 25
+	$rimlightboost 0.01
+	
+	$allowdiffusemodulation 0
+}
