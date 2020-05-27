@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+	$basetexture "damnbuilding2/door_underground_woodgreen_static"
+	$bumpmap "damnbuilding2/door_underground_normal"
+	$surfaceprop Wood_Plank
+}

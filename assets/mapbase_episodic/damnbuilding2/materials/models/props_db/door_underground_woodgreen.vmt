@@ -1,0 +1,6 @@
+SDK_VertexLitGeneric
+{
+	$basetexture "models/props_db/door_underground_woodgreen"
+	$bumpmap "models/props_db/door_underground_normal"
+	$surfaceprop Wood_Plank
+}
