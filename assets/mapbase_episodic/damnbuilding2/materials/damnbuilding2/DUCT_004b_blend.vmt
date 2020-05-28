@@ -1,0 +1,12 @@
+SDK_WorldVertexTransition
+{
+	$basetexture "damnbuilding2/DUCT_004b_Diffuse"
+	$bumpmap "damnbuilding2/DUCT_004b_Normal"
+	$surfaceprop Metal
+
+	$basetexture2 "damnbuilding2/DUCT_004r_Diffuse"
+	$bumpmap2 "damnbuilding2/DUCT_004r_Normal"
+	$surfaceprop2 Metal_Bouncy
+
+	$blendmodulatetexture "damnbuilding2/duct_004r_modulate"
+}

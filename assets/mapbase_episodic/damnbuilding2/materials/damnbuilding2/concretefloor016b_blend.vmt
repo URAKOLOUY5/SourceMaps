@@ -1,0 +1,12 @@
+SDK_WorldVertexTransition
+{
+	$basetexture "concrete\concretefloor016a"
+	$bumpmap "concrete\concretefloor016a_normal"
+	$surfaceprop Concrete
+
+	$basetexture2 "concrete\concretefloor012a"
+	$bumpmap2 "concrete\concretefloor012a_normal"
+	$surfaceprop2 Concrete
+
+	$blendmodulatetexture "damnbuilding2/concretefloor_modulate"
+}
