@@ -1,0 +1,5 @@
+SDK_VertexLitGeneric
+{
+	$basetexture "models/props_db/door_underground_wood_nowindow"
+	$surfaceprop Wood
+}
