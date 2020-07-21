@@ -1,0 +1,12 @@
+LightmappedGeneric
+{
+	$basetexture "fx/combine_field/combine_field_blue"
+
+	$alpha 0.4
+	$translucent 1
+	$additive 1
+
+	$selfillum 1
+
+	$nofog 1
+}

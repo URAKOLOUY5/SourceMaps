@@ -1,0 +1,6 @@
+SDK_LightmappedGeneric
+{
+	$basetexture "dam_building/building_template014o_transparent"
+
+	$translucent 1
+}
