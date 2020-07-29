@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$distancealpha" "1"
+	"$softedges" "1"
+	"$edgesoftnessstart" .5
+	"$edgesoftnessend" .45
+	"$scaleedgesoftnessbasedonscreenres" 0
+	"$basetexture"		"weapons\weapon_flashlight_kill"
+	"$ignorez"		1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$nolod" "1"
+}
