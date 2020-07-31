@@ -1,6 +1,8 @@
 ## How to install my assets
 
+
 ### Structure of asset archive
+---
 
 To install you should download archive of branch by clicking [download](https://github.com/URAKOLOUY5/SourceMaps/archive/master.zip)
 
@@ -10,11 +12,11 @@ After you have downloaded the archive, there will be the necessary folders:
 
 Theres folder **assets** - is a root folder. It contain **gamename** (for example `mapbase_episodic`). 
 
-
-
 Once you have checked the structure of the archive and selected the neccesary asset, you need to install them in your SDK editor. 
 
+
 ### Installing assets to your Valve Hammer Editor (Vanilla Half-Life 2 or VHE for Half-Life 2 but used for Garry's Mod)
+---
 
 This is categorically not suitable for maps made for U5Maps or modifications on Mapbase (below is the link to download U5Maps).
 
@@ -36,7 +38,7 @@ There, create a new folder with the same name as you specified after `game+mod`.
 Finally, you can use my assets in your SDK!
 
 ### Installing assets to your Mapbase (Only U5Maps)
-
+---
 
 All content is already packaged in the U5Maps map-base.
 
