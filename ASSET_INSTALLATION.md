@@ -33,8 +33,10 @@ There, create a new folder with the same name as you specified after `game+mod`.
 
 Finally, you can use my assets in your SDK!
 
-#### Installing assets to your Mapbase (Episodic or HL2)
+#### Installing assets to your Mapbase (Only U5Maps)
 
-In order to install content you need to pack it in vpk and place it in the folder `content` in the folder `mapbase_episodic` or `mapbase_hl2`.
 
-*If you are interested in creating VPK, please visit the [Valve's wikipedia page](https://developer.valvesoftware.com/wiki/VPK)*
+All content is already packaged in the U5Maps map-base.
+
+You can download U5Maps [here](https://github.com/URAKOLOUY5/mapbase_u5_base/releases)
+
