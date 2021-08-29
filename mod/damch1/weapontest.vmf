@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8157"
-	"mapversion" "87"
+	"editorbuild" "8680"
+	"mapversion" "89"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -13,14 +13,41 @@ viewsettings
 {
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
-	"bShowLogicalGrid" "0"
 	"nGridSpacing" "1"
 	"bShow3DGrid" "1"
+	"nInstanceVisibility" "1"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(-360.53 90.5405 169.972)"
+			"angle" "[18 22.8001 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(16384 226.385 74.9365)"
+			"zoom" "6.65583"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "87"
+	"mapversion" "89"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -34,7 +61,15 @@ world
 		{
 			"id" "1"
 			"plane" "(-512 512 64) (0 512 64) (0 0 64)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 0 64"
+				"point" "1 -512 512 64"
+				"point" "2 0 512 64"
+				"point" "3 0 0 64"
+			}
+			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -45,6 +80,14 @@ world
 		{
 			"id" "2"
 			"plane" "(-512 0 0) (0 0 0) (0 512 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 512 0"
+				"point" "1 -512 0 0"
+				"point" "2 0 0 0"
+				"point" "3 0 512 0"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_GREEN02"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -56,6 +99,14 @@ world
 		{
 			"id" "3"
 			"plane" "(-512 512 64) (-512 0 64) (-512 0 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 0 0"
+				"point" "1 -512 512 0"
+				"point" "2 -512 512 64"
+				"point" "3 -512 0 64"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_GREEN02"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -67,6 +118,14 @@ world
 		{
 			"id" "4"
 			"plane" "(0 512 0) (0 0 0) (0 0 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 512 0"
+				"point" "1 0 0 0"
+				"point" "2 0 0 64"
+				"point" "3 0 512 64"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_GREEN02"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -78,6 +137,14 @@ world
 		{
 			"id" "5"
 			"plane" "(0 512 64) (-512 512 64) (-512 512 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 512 0"
+				"point" "1 0 512 0"
+				"point" "2 0 512 64"
+				"point" "3 -512 512 64"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_GREEN02"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -89,6 +156,14 @@ world
 		{
 			"id" "6"
 			"plane" "(0 0 0) (-512 0 0) (-512 0 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 0 0"
+				"point" "1 -512 0 0"
+				"point" "2 -512 0 64"
+				"point" "3 0 0 64"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_GREEN02"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -110,7 +185,15 @@ world
 		{
 			"id" "7"
 			"plane" "(-256 480 192) (-240 480 192) (-240 384 192)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -256 384 192"
+				"point" "1 -256 480 192"
+				"point" "2 -240 480 192"
+				"point" "3 -240 384 192"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -121,7 +204,15 @@ world
 		{
 			"id" "8"
 			"plane" "(-256 384 64) (-240 384 64) (-240 480 64)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -256 480 64"
+				"point" "1 -256 384 64"
+				"point" "2 -240 384 64"
+				"point" "3 -240 480 64"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -132,6 +223,14 @@ world
 		{
 			"id" "9"
 			"plane" "(-256 480 192) (-256 384 192) (-256 384 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -256 384 64"
+				"point" "1 -256 480 64"
+				"point" "2 -256 480 192"
+				"point" "3 -256 384 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -143,6 +242,14 @@ world
 		{
 			"id" "10"
 			"plane" "(-240 480 64) (-240 384 64) (-240 384 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -240 480 64"
+				"point" "1 -240 384 64"
+				"point" "2 -240 384 192"
+				"point" "3 -240 480 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 -64] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -154,7 +261,15 @@ world
 		{
 			"id" "11"
 			"plane" "(-240 480 192) (-256 480 192) (-256 480 64)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -256 480 64"
+				"point" "1 -240 480 64"
+				"point" "2 -240 480 192"
+				"point" "3 -256 480 192"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -165,7 +280,15 @@ world
 		{
 			"id" "12"
 			"plane" "(-240 384 64) (-256 384 64) (-256 384 192)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -240 384 64"
+				"point" "1 -256 384 64"
+				"point" "2 -256 384 192"
+				"point" "3 -240 384 192"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -186,7 +309,15 @@ world
 		{
 			"id" "43"
 			"plane" "(-512 512 192) (0 512 192) (0 480 192)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 480 192"
+				"point" "1 -512 512 192"
+				"point" "2 0 512 192"
+				"point" "3 0 480 192"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -197,7 +328,15 @@ world
 		{
 			"id" "44"
 			"plane" "(-512 480 64) (0 480 64) (0 512 64)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 512 64"
+				"point" "1 -512 480 64"
+				"point" "2 0 480 64"
+				"point" "3 0 512 64"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -208,7 +347,15 @@ world
 		{
 			"id" "45"
 			"plane" "(-512 512 192) (-512 480 192) (-512 480 64)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 480 64"
+				"point" "1 -512 512 64"
+				"point" "2 -512 512 192"
+				"point" "3 -512 480 192"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -219,7 +366,15 @@ world
 		{
 			"id" "46"
 			"plane" "(0 512 64) (0 480 64) (0 480 192)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 512 64"
+				"point" "1 0 480 64"
+				"point" "2 0 480 192"
+				"point" "3 0 512 192"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -230,7 +385,15 @@ world
 		{
 			"id" "47"
 			"plane" "(0 512 192) (-512 512 192) (-512 512 64)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 512 64"
+				"point" "1 0 512 64"
+				"point" "2 0 512 192"
+				"point" "3 -512 512 192"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -241,6 +404,14 @@ world
 		{
 			"id" "48"
 			"plane" "(0 480 64) (-512 480 64) (-512 480 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 480 64"
+				"point" "1 -512 480 64"
+				"point" "2 -512 480 192"
+				"point" "3 0 480 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -262,6 +433,14 @@ world
 		{
 			"id" "49"
 			"plane" "(-544 480 192) (-512 480 192) (-512 0 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -544 0 192"
+				"point" "1 -544 480 192"
+				"point" "2 -512 480 192"
+				"point" "3 -512 0 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -273,6 +452,14 @@ world
 		{
 			"id" "50"
 			"plane" "(-544 0 64) (-512 0 64) (-512 480 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -544 480 64"
+				"point" "1 -544 0 64"
+				"point" "2 -512 0 64"
+				"point" "3 -512 480 64"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -284,6 +471,14 @@ world
 		{
 			"id" "51"
 			"plane" "(-544 480 192) (-544 0 192) (-544 0 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -544 0 64"
+				"point" "1 -544 480 64"
+				"point" "2 -544 480 192"
+				"point" "3 -544 0 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -295,6 +490,14 @@ world
 		{
 			"id" "52"
 			"plane" "(-512 480 64) (-512 0 64) (-512 0 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 480 64"
+				"point" "1 -512 0 64"
+				"point" "2 -512 0 192"
+				"point" "3 -512 480 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -306,6 +509,14 @@ world
 		{
 			"id" "53"
 			"plane" "(-512 480 192) (-544 480 192) (-544 480 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -544 480 64"
+				"point" "1 -512 480 64"
+				"point" "2 -512 480 192"
+				"point" "3 -544 480 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -317,6 +528,14 @@ world
 		{
 			"id" "54"
 			"plane" "(-512 0 64) (-544 0 64) (-544 0 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 0 64"
+				"point" "1 -544 0 64"
+				"point" "2 -544 0 192"
+				"point" "3 -512 0 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -338,6 +557,14 @@ world
 		{
 			"id" "55"
 			"plane" "(0 480 192) (32 480 192) (32 0 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 0 192"
+				"point" "1 0 480 192"
+				"point" "2 32 480 192"
+				"point" "3 32 0 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -349,6 +576,14 @@ world
 		{
 			"id" "56"
 			"plane" "(0 0 64) (32 0 64) (32 480 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 480 64"
+				"point" "1 0 0 64"
+				"point" "2 32 0 64"
+				"point" "3 32 480 64"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -360,6 +595,14 @@ world
 		{
 			"id" "57"
 			"plane" "(0 480 192) (0 0 192) (0 0 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 0 64"
+				"point" "1 0 480 64"
+				"point" "2 0 480 192"
+				"point" "3 0 0 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -371,6 +614,14 @@ world
 		{
 			"id" "58"
 			"plane" "(32 480 64) (32 0 64) (32 0 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 480 64"
+				"point" "1 32 0 64"
+				"point" "2 32 0 192"
+				"point" "3 32 480 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -382,6 +633,14 @@ world
 		{
 			"id" "59"
 			"plane" "(32 480 192) (0 480 192) (0 480 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 480 64"
+				"point" "1 32 480 64"
+				"point" "2 32 480 192"
+				"point" "3 0 480 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -393,6 +652,14 @@ world
 		{
 			"id" "60"
 			"plane" "(32 0 64) (0 0 64) (0 0 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 0 64"
+				"point" "1 0 0 64"
+				"point" "2 0 0 192"
+				"point" "3 32 0 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -414,6 +681,14 @@ world
 		{
 			"id" "61"
 			"plane" "(-512 0 192) (0 0 192) (0 -32 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 -32 192"
+				"point" "1 -512 0 192"
+				"point" "2 0 0 192"
+				"point" "3 0 -32 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -425,6 +700,14 @@ world
 		{
 			"id" "62"
 			"plane" "(-512 -32 64) (0 -32 64) (0 0 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 0 64"
+				"point" "1 -512 -32 64"
+				"point" "2 0 -32 64"
+				"point" "3 0 0 64"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -436,6 +719,14 @@ world
 		{
 			"id" "63"
 			"plane" "(-512 0 192) (-512 -32 192) (-512 -32 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 -32 64"
+				"point" "1 -512 0 64"
+				"point" "2 -512 0 192"
+				"point" "3 -512 -32 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -447,6 +738,14 @@ world
 		{
 			"id" "64"
 			"plane" "(0 0 64) (0 -32 64) (0 -32 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 0 64"
+				"point" "1 0 -32 64"
+				"point" "2 0 -32 192"
+				"point" "3 0 0 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -458,6 +757,14 @@ world
 		{
 			"id" "65"
 			"plane" "(0 0 192) (-512 0 192) (-512 0 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 0 64"
+				"point" "1 0 0 64"
+				"point" "2 0 0 192"
+				"point" "3 -512 0 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -469,6 +776,14 @@ world
 		{
 			"id" "66"
 			"plane" "(0 -32 64) (-512 -32 64) (-512 -32 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 -32 64"
+				"point" "1 -512 -32 64"
+				"point" "2 -512 -32 192"
+				"point" "3 0 -32 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -490,7 +805,15 @@ world
 		{
 			"id" "78"
 			"plane" "(-256 96 192) (-240 96 192) (-240 0 192)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -256 0 192"
+				"point" "1 -256 96 192"
+				"point" "2 -240 96 192"
+				"point" "3 -240 0 192"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -501,7 +824,15 @@ world
 		{
 			"id" "77"
 			"plane" "(-256 0 64) (-240 0 64) (-240 96 64)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -256 96 64"
+				"point" "1 -256 0 64"
+				"point" "2 -240 0 64"
+				"point" "3 -240 96 64"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -512,6 +843,14 @@ world
 		{
 			"id" "76"
 			"plane" "(-256 96 192) (-256 0 192) (-256 0 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -256 0 64"
+				"point" "1 -256 96 64"
+				"point" "2 -256 96 192"
+				"point" "3 -256 0 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -523,6 +862,14 @@ world
 		{
 			"id" "75"
 			"plane" "(-240 96 64) (-240 0 64) (-240 0 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -240 96 64"
+				"point" "1 -240 0 64"
+				"point" "2 -240 0 192"
+				"point" "3 -240 96 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 64] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -534,7 +881,15 @@ world
 		{
 			"id" "74"
 			"plane" "(-240 96 192) (-256 96 192) (-256 96 64)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -256 96 64"
+				"point" "1 -240 96 64"
+				"point" "2 -240 96 192"
+				"point" "3 -256 96 192"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -545,7 +900,15 @@ world
 		{
 			"id" "73"
 			"plane" "(-240 0 64) (-256 0 64) (-256 0 192)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -240 0 64"
+				"point" "1 -256 0 64"
+				"point" "2 -256 0 192"
+				"point" "3 -240 0 192"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -566,6 +929,14 @@ world
 		{
 			"id" "90"
 			"plane" "(-512 512 352) (0 512 352) (0 0 352)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 0 352"
+				"point" "1 -512 512 352"
+				"point" "2 0 512 352"
+				"point" "3 0 0 352"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -577,6 +948,14 @@ world
 		{
 			"id" "89"
 			"plane" "(-512 0 320) (0 0 320) (0 512 320)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 512 320"
+				"point" "1 -512 0 320"
+				"point" "2 0 0 320"
+				"point" "3 0 512 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -588,6 +967,14 @@ world
 		{
 			"id" "88"
 			"plane" "(-512 512 352) (-512 0 352) (-512 0 320)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 0 320"
+				"point" "1 -512 512 320"
+				"point" "2 -512 512 352"
+				"point" "3 -512 0 352"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -599,6 +986,14 @@ world
 		{
 			"id" "87"
 			"plane" "(0 512 320) (0 0 320) (0 0 352)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 512 320"
+				"point" "1 0 0 320"
+				"point" "2 0 0 352"
+				"point" "3 0 512 352"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -610,6 +1005,14 @@ world
 		{
 			"id" "86"
 			"plane" "(0 512 352) (-512 512 352) (-512 512 320)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 512 320"
+				"point" "1 0 512 320"
+				"point" "2 0 512 352"
+				"point" "3 -512 512 352"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -621,6 +1024,14 @@ world
 		{
 			"id" "85"
 			"plane" "(0 0 320) (-512 0 320) (-512 0 352)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 0 320"
+				"point" "1 -512 0 320"
+				"point" "2 -512 0 352"
+				"point" "3 0 0 352"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -642,6 +1053,14 @@ world
 		{
 			"id" "120"
 			"plane" "(-512 0 320) (0 0 320) (0 -32 320)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 -32 320"
+				"point" "1 -512 0 320"
+				"point" "2 0 0 320"
+				"point" "3 0 -32 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -653,6 +1072,14 @@ world
 		{
 			"id" "119"
 			"plane" "(-512 -32 192) (0 -32 192) (0 0 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 0 192"
+				"point" "1 -512 -32 192"
+				"point" "2 0 -32 192"
+				"point" "3 0 0 192"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -664,6 +1091,14 @@ world
 		{
 			"id" "118"
 			"plane" "(-512 0 320) (-512 -32 320) (-512 -32 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 -32 192"
+				"point" "1 -512 0 192"
+				"point" "2 -512 0 320"
+				"point" "3 -512 -32 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -675,6 +1110,14 @@ world
 		{
 			"id" "117"
 			"plane" "(0 0 192) (0 -32 192) (0 -32 320)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 0 192"
+				"point" "1 0 -32 192"
+				"point" "2 0 -32 320"
+				"point" "3 0 0 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -686,6 +1129,14 @@ world
 		{
 			"id" "116"
 			"plane" "(0 0 320) (-512 0 320) (-512 0 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 0 192"
+				"point" "1 0 0 192"
+				"point" "2 0 0 320"
+				"point" "3 -512 0 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -697,6 +1148,14 @@ world
 		{
 			"id" "115"
 			"plane" "(0 -32 192) (-512 -32 192) (-512 -32 320)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 -32 192"
+				"point" "1 -512 -32 192"
+				"point" "2 -512 -32 320"
+				"point" "3 0 -32 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -718,6 +1177,14 @@ world
 		{
 			"id" "126"
 			"plane" "(0 480 320) (32 480 320) (32 0 320)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 0 320"
+				"point" "1 0 480 320"
+				"point" "2 32 480 320"
+				"point" "3 32 0 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -729,6 +1196,14 @@ world
 		{
 			"id" "125"
 			"plane" "(0 0 192) (32 0 192) (32 480 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 480 192"
+				"point" "1 0 0 192"
+				"point" "2 32 0 192"
+				"point" "3 32 480 192"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -740,6 +1215,14 @@ world
 		{
 			"id" "124"
 			"plane" "(0 480 320) (0 0 320) (0 0 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 0 192"
+				"point" "1 0 480 192"
+				"point" "2 0 480 320"
+				"point" "3 0 0 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -751,6 +1234,14 @@ world
 		{
 			"id" "123"
 			"plane" "(32 480 192) (32 0 192) (32 0 320)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 480 192"
+				"point" "1 32 0 192"
+				"point" "2 32 0 320"
+				"point" "3 32 480 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -762,6 +1253,14 @@ world
 		{
 			"id" "122"
 			"plane" "(32 480 320) (0 480 320) (0 480 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 480 192"
+				"point" "1 32 480 192"
+				"point" "2 32 480 320"
+				"point" "3 0 480 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -773,6 +1272,14 @@ world
 		{
 			"id" "121"
 			"plane" "(32 0 192) (0 0 192) (0 0 320)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 32 0 192"
+				"point" "1 0 0 192"
+				"point" "2 0 0 320"
+				"point" "3 32 0 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -794,6 +1301,14 @@ world
 		{
 			"id" "132"
 			"plane" "(-544 480 320) (-512 480 320) (-512 0 320)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -544 0 320"
+				"point" "1 -544 480 320"
+				"point" "2 -512 480 320"
+				"point" "3 -512 0 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -805,6 +1320,14 @@ world
 		{
 			"id" "131"
 			"plane" "(-544 0 192) (-512 0 192) (-512 480 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -544 480 192"
+				"point" "1 -544 0 192"
+				"point" "2 -512 0 192"
+				"point" "3 -512 480 192"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -816,6 +1339,14 @@ world
 		{
 			"id" "130"
 			"plane" "(-544 480 320) (-544 0 320) (-544 0 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -544 0 192"
+				"point" "1 -544 480 192"
+				"point" "2 -544 480 320"
+				"point" "3 -544 0 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -827,6 +1358,14 @@ world
 		{
 			"id" "129"
 			"plane" "(-512 480 192) (-512 0 192) (-512 0 320)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 480 192"
+				"point" "1 -512 0 192"
+				"point" "2 -512 0 320"
+				"point" "3 -512 480 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -838,6 +1377,14 @@ world
 		{
 			"id" "128"
 			"plane" "(-512 480 320) (-544 480 320) (-544 480 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -544 480 192"
+				"point" "1 -512 480 192"
+				"point" "2 -512 480 320"
+				"point" "3 -544 480 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -849,6 +1396,14 @@ world
 		{
 			"id" "127"
 			"plane" "(-512 0 192) (-544 0 192) (-544 0 320)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 0 192"
+				"point" "1 -544 0 192"
+				"point" "2 -544 0 320"
+				"point" "3 -512 0 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -870,6 +1425,14 @@ world
 		{
 			"id" "138"
 			"plane" "(-512 512 320) (0 512 320) (0 480 320)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 480 320"
+				"point" "1 -512 512 320"
+				"point" "2 0 512 320"
+				"point" "3 0 480 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -881,6 +1444,14 @@ world
 		{
 			"id" "137"
 			"plane" "(-512 480 192) (0 480 192) (0 512 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 512 192"
+				"point" "1 -512 480 192"
+				"point" "2 0 480 192"
+				"point" "3 0 512 192"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -892,6 +1463,14 @@ world
 		{
 			"id" "136"
 			"plane" "(-512 512 320) (-512 480 320) (-512 480 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 480 192"
+				"point" "1 -512 512 192"
+				"point" "2 -512 512 320"
+				"point" "3 -512 480 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -903,6 +1482,14 @@ world
 		{
 			"id" "135"
 			"plane" "(0 512 192) (0 480 192) (0 480 320)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 512 192"
+				"point" "1 0 480 192"
+				"point" "2 0 480 320"
+				"point" "3 0 512 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -914,6 +1501,14 @@ world
 		{
 			"id" "134"
 			"plane" "(0 512 320) (-512 512 320) (-512 512 192)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -512 512 192"
+				"point" "1 0 512 192"
+				"point" "2 0 512 320"
+				"point" "3 -512 512 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -925,6 +1520,14 @@ world
 		{
 			"id" "133"
 			"plane" "(0 480 192) (-512 480 192) (-512 480 320)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 0 480 192"
+				"point" "1 -512 480 192"
+				"point" "2 -512 480 320"
+				"point" "3 0 480 320"
+			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -946,7 +1549,15 @@ world
 		{
 			"id" "150"
 			"plane" "(-240 96 192) (-240 0 224) (-256 0 224)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -256 0 224"
+				"point" "1 -256 96 192"
+				"point" "2 -240 96 192"
+				"point" "3 -240 0 224"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -957,7 +1568,15 @@ world
 		{
 			"id" "149"
 			"plane" "(-240 0 192) (-240 96 192) (-256 96 192)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -240 96 192"
+				"point" "1 -256 96 192"
+				"point" "2 -256 0 192"
+				"point" "3 -240 0 192"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -968,6 +1587,13 @@ world
 		{
 			"id" "148"
 			"plane" "(-256 0 224) (-256 0 192) (-256 96 192)"
+			point_data
+			{
+				"numpts" "3"
+				"point" "0 -256 0 192"
+				"point" "1 -256 96 192"
+				"point" "2 -256 0 224"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -979,6 +1605,13 @@ world
 		{
 			"id" "147"
 			"plane" "(-240 0 192) (-240 0 224) (-240 96 192)"
+			point_data
+			{
+				"numpts" "3"
+				"point" "0 -240 0 224"
+				"point" "1 -240 96 192"
+				"point" "2 -240 0 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 64] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -990,7 +1623,15 @@ world
 		{
 			"id" "145"
 			"plane" "(-256 0 192) (-256 0 224) (-240 0 224)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -240 0 192"
+				"point" "1 -256 0 192"
+				"point" "2 -256 0 224"
+				"point" "3 -240 0 224"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1011,7 +1652,15 @@ world
 		{
 			"id" "160"
 			"plane" "(-256 384 192) (-256 480 224) (-240 480 224)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -240 384 192"
+				"point" "1 -256 384 192"
+				"point" "2 -256 480 224"
+				"point" "3 -240 480 224"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "0"
@@ -1022,7 +1671,15 @@ world
 		{
 			"id" "159"
 			"plane" "(-256 480 192) (-256 384 192) (-240 384 192)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -256 480 192"
+				"point" "1 -256 384 192"
+				"point" "2 -240 384 192"
+				"point" "3 -240 480 192"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 0] 0.25"
 			"rotation" "0"
@@ -1033,6 +1690,13 @@ world
 		{
 			"id" "158"
 			"plane" "(-256 384 192) (-256 480 192) (-256 480 224)"
+			point_data
+			{
+				"numpts" "3"
+				"point" "0 -256 480 224"
+				"point" "1 -256 384 192"
+				"point" "2 -256 480 192"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1044,6 +1708,13 @@ world
 		{
 			"id" "157"
 			"plane" "(-240 384 192) (-240 480 224) (-240 480 192)"
+			point_data
+			{
+				"numpts" "3"
+				"point" "0 -240 480 192"
+				"point" "1 -240 384 192"
+				"point" "2 -240 480 224"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 -1 0 64] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1055,7 +1726,15 @@ world
 		{
 			"id" "156"
 			"plane" "(-240 480 192) (-240 480 224) (-256 480 224)"
-			"material" "DEV/DEV_MEASUREGENERIC_BLUE02"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -256 480 192"
+				"point" "1 -240 480 192"
+				"point" "2 -240 480 224"
+				"point" "3 -256 480 224"
+			}
+			"material" "BRICK/BRICKFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -1076,6 +1755,16 @@ world
 		{
 			"id" "187"
 			"plane" "(-416 -0 72) (-412 20 72) (-392 40 72)"
+			point_data
+			{
+				"numpts" "6"
+				"point" "0 -416 0 72"
+				"point" "1 -412 20 72"
+				"point" "2 -392 40 72"
+				"point" "3 -376 40 72"
+				"point" "4 -356 20 72"
+				"point" "5 -352 0 72"
+			}
 			"material" "METAL/METALVENT015A"
 			"uaxis" "[1 0 0 69.3781] 0.595"
 			"vaxis" "[0 -1 0 93.9401] 0.668"
@@ -1087,6 +1776,16 @@ world
 		{
 			"id" "186"
 			"plane" "(-412 20 64) (-416 -0 64) (-352 -0 64)"
+			point_data
+			{
+				"numpts" "6"
+				"point" "0 -412 20 64"
+				"point" "1 -416 0 64"
+				"point" "2 -352 0 64"
+				"point" "3 -356 20 64"
+				"point" "4 -376 40 64"
+				"point" "5 -392 40 64"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1098,6 +1797,14 @@ world
 		{
 			"id" "185"
 			"plane" "(-416 0 64) (-412 20 64) (-412 20 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -416 0 64"
+				"point" "1 -412 20 64"
+				"point" "2 -412 20 72"
+				"point" "3 -416 0 72"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -1109,6 +1816,14 @@ world
 		{
 			"id" "184"
 			"plane" "(-356 20 64) (-352 0 64) (-352 0 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -356 20 64"
+				"point" "1 -352 0 64"
+				"point" "2 -352 0 72"
+				"point" "3 -356 20 72"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -1120,6 +1835,14 @@ world
 		{
 			"id" "183"
 			"plane" "(-392 40 64) (-376 40 64) (-376 40 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -392 40 64"
+				"point" "1 -376 40 64"
+				"point" "2 -376 40 72"
+				"point" "3 -392 40 72"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -1131,6 +1854,14 @@ world
 		{
 			"id" "182"
 			"plane" "(-352 0 64) (-416 0 64) (-416 0 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -352 0 64"
+				"point" "1 -416 0 64"
+				"point" "2 -416 0 72"
+				"point" "3 -352 0 72"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -1142,6 +1873,14 @@ world
 		{
 			"id" "181"
 			"plane" "(-412 20 64) (-392 40 64) (-392 40 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -412 20 64"
+				"point" "1 -392 40 64"
+				"point" "2 -392 40 72"
+				"point" "3 -412 20 72"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1153,6 +1892,14 @@ world
 		{
 			"id" "180"
 			"plane" "(-376 40 64) (-356 20 64) (-356 20 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -376 40 64"
+				"point" "1 -356 20 64"
+				"point" "2 -356 20 72"
+				"point" "3 -376 40 72"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1174,6 +1921,16 @@ world
 		{
 			"id" "203"
 			"plane" "(-416 0 152) (-412 20 152) (-392 40 152)"
+			point_data
+			{
+				"numpts" "6"
+				"point" "0 -416 0 152"
+				"point" "1 -412 20 152"
+				"point" "2 -392 40 152"
+				"point" "3 -376 40 152"
+				"point" "4 -356 20 152"
+				"point" "5 -352 0 152"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1185,6 +1942,16 @@ world
 		{
 			"id" "202"
 			"plane" "(-412 20 144) (-416 0 144) (-352 0 144)"
+			point_data
+			{
+				"numpts" "6"
+				"point" "0 -412 20 144"
+				"point" "1 -416 0 144"
+				"point" "2 -352 0 144"
+				"point" "3 -356 20 144"
+				"point" "4 -376 40 144"
+				"point" "5 -392 40 144"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1196,6 +1963,14 @@ world
 		{
 			"id" "201"
 			"plane" "(-416 0 144) (-412 20 144) (-412 20 152)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -416 0 144"
+				"point" "1 -412 20 144"
+				"point" "2 -412 20 152"
+				"point" "3 -416 0 152"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -1207,6 +1982,14 @@ world
 		{
 			"id" "200"
 			"plane" "(-356 20 144) (-352 0 144) (-352 0 152)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -356 20 144"
+				"point" "1 -352 0 144"
+				"point" "2 -352 0 152"
+				"point" "3 -356 20 152"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -1218,6 +2001,14 @@ world
 		{
 			"id" "199"
 			"plane" "(-392 40 144) (-376 40 144) (-376 40 152)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -392 40 144"
+				"point" "1 -376 40 144"
+				"point" "2 -376 40 152"
+				"point" "3 -392 40 152"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -1229,6 +2020,14 @@ world
 		{
 			"id" "198"
 			"plane" "(-352 0 144) (-416 0 144) (-416 0 152)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -352 0 144"
+				"point" "1 -416 0 144"
+				"point" "2 -416 0 152"
+				"point" "3 -352 0 152"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -1240,6 +2039,14 @@ world
 		{
 			"id" "197"
 			"plane" "(-412 20 144) (-392 40 144) (-392 40 152)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -412 20 144"
+				"point" "1 -392 40 144"
+				"point" "2 -392 40 152"
+				"point" "3 -412 20 152"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -64] 0.25"
@@ -1251,6 +2058,14 @@ world
 		{
 			"id" "196"
 			"plane" "(-376 40 144) (-356 20 144) (-356 20 152)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -376 40 144"
+				"point" "1 -356 20 144"
+				"point" "2 -356 20 152"
+				"point" "3 -376 40 152"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -64] 0.25"
@@ -1272,6 +2087,14 @@ world
 		{
 			"id" "204"
 			"plane" "(-360 16 144) (-356 16 144) (-356 0 144)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -360 0 144"
+				"point" "1 -360 16 144"
+				"point" "2 -356 16 144"
+				"point" "3 -356 0 144"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1283,6 +2106,14 @@ world
 		{
 			"id" "205"
 			"plane" "(-360 0 72) (-356 0 72) (-356 16 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -360 16 72"
+				"point" "1 -360 0 72"
+				"point" "2 -356 0 72"
+				"point" "3 -356 16 72"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1294,6 +2125,14 @@ world
 		{
 			"id" "206"
 			"plane" "(-360 16 144) (-360 0 144) (-360 0 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -360 0 72"
+				"point" "1 -360 16 72"
+				"point" "2 -360 16 144"
+				"point" "3 -360 0 144"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1305,6 +2144,14 @@ world
 		{
 			"id" "207"
 			"plane" "(-356 16 72) (-356 0 72) (-356 0 144)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -356 16 72"
+				"point" "1 -356 0 72"
+				"point" "2 -356 0 144"
+				"point" "3 -356 16 144"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1316,6 +2163,14 @@ world
 		{
 			"id" "208"
 			"plane" "(-356 16 144) (-360 16 144) (-360 16 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -360 16 72"
+				"point" "1 -356 16 72"
+				"point" "2 -356 16 144"
+				"point" "3 -360 16 144"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1327,6 +2182,14 @@ world
 		{
 			"id" "209"
 			"plane" "(-356 0 72) (-360 0 72) (-360 0 144)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -356 0 72"
+				"point" "1 -360 0 72"
+				"point" "2 -360 0 144"
+				"point" "3 -356 0 144"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1348,6 +2211,14 @@ world
 		{
 			"id" "221"
 			"plane" "(-412 16 144) (-408 16 144) (-408 0 144)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -412 0 144"
+				"point" "1 -412 16 144"
+				"point" "2 -408 16 144"
+				"point" "3 -408 0 144"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[1 0 0 80] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1359,6 +2230,14 @@ world
 		{
 			"id" "220"
 			"plane" "(-412 0 72) (-408 0 72) (-408 16 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -412 16 72"
+				"point" "1 -412 0 72"
+				"point" "2 -408 0 72"
+				"point" "3 -408 16 72"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[1 0 0 80] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1370,6 +2249,14 @@ world
 		{
 			"id" "219"
 			"plane" "(-412 16 144) (-412 0 144) (-412 0 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -412 0 72"
+				"point" "1 -412 16 72"
+				"point" "2 -412 16 144"
+				"point" "3 -412 0 144"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1381,6 +2268,14 @@ world
 		{
 			"id" "218"
 			"plane" "(-408 16 72) (-408 0 72) (-408 0 144)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -408 16 72"
+				"point" "1 -408 0 72"
+				"point" "2 -408 0 144"
+				"point" "3 -408 16 144"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1392,6 +2287,14 @@ world
 		{
 			"id" "217"
 			"plane" "(-408 16 144) (-412 16 144) (-412 16 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -412 16 72"
+				"point" "1 -408 16 72"
+				"point" "2 -408 16 144"
+				"point" "3 -412 16 144"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[1 0 0 80] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1403,6 +2306,14 @@ world
 		{
 			"id" "216"
 			"plane" "(-408 0 72) (-412 0 72) (-412 0 144)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -408 0 72"
+				"point" "1 -412 0 72"
+				"point" "2 -412 0 144"
+				"point" "3 -408 0 144"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[1 0 0 80] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1424,6 +2335,14 @@ world
 		{
 			"id" "233"
 			"plane" "(-408 4 144) (-360 4 144) (-360 0 144)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -408 0 144"
+				"point" "1 -408 4 144"
+				"point" "2 -360 4 144"
+				"point" "3 -360 0 144"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[1 0 0 16] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1435,6 +2354,14 @@ world
 		{
 			"id" "232"
 			"plane" "(-408 0 72) (-360 0 72) (-360 4 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -408 4 72"
+				"point" "1 -408 0 72"
+				"point" "2 -360 0 72"
+				"point" "3 -360 4 72"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[1 0 0 16] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1446,6 +2373,14 @@ world
 		{
 			"id" "231"
 			"plane" "(-408 4 144) (-408 0 144) (-408 0 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -408 0 72"
+				"point" "1 -408 4 72"
+				"point" "2 -408 4 144"
+				"point" "3 -408 0 144"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1457,6 +2392,14 @@ world
 		{
 			"id" "230"
 			"plane" "(-360 4 72) (-360 0 72) (-360 0 144)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -360 4 72"
+				"point" "1 -360 0 72"
+				"point" "2 -360 0 144"
+				"point" "3 -360 4 144"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1468,6 +2411,14 @@ world
 		{
 			"id" "229"
 			"plane" "(-360 4 144) (-408 4 144) (-408 4 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -408 4 72"
+				"point" "1 -360 4 72"
+				"point" "2 -360 4 144"
+				"point" "3 -408 4 144"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_PURPLE01"
 			"uaxis" "[1 0 0 16] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1479,6 +2430,14 @@ world
 		{
 			"id" "228"
 			"plane" "(-360 0 72) (-408 0 72) (-408 0 144)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -360 0 72"
+				"point" "1 -408 0 72"
+				"point" "2 -408 0 144"
+				"point" "3 -360 0 144"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC_BROWN01"
 			"uaxis" "[1 0 0 16] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1500,6 +2459,14 @@ world
 		{
 			"id" "263"
 			"plane" "(-360 20 72) (-408 20 72) (-408 40 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -360 20 72"
+				"point" "1 -408 20 72"
+				"point" "2 -408 40 72"
+				"point" "3 -360 40 72"
+			}
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 16] 0.25"
@@ -1511,6 +2478,14 @@ world
 		{
 			"id" "262"
 			"plane" "(-348 60 64) (-420 60 64) (-420 20 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -348 60 64"
+				"point" "1 -420 60 64"
+				"point" "2 -420 20 64"
+				"point" "3 -348 20 64"
+			}
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 16] 0.25"
@@ -1522,6 +2497,14 @@ world
 		{
 			"id" "261"
 			"plane" "(-360 40 72) (-408 40 72) (-420 60 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -360 40 72"
+				"point" "1 -408 40 72"
+				"point" "2 -420 60 64"
+				"point" "3 -348 60 64"
+			}
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1533,6 +2516,14 @@ world
 		{
 			"id" "260"
 			"plane" "(-348 20 64) (-420 20 64) (-408 20 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -348 20 64"
+				"point" "1 -420 20 64"
+				"point" "2 -408 20 72"
+				"point" "3 -360 20 72"
+			}
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1544,6 +2535,14 @@ world
 		{
 			"id" "259"
 			"plane" "(-360 20 72) (-360 40 72) (-348 60 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -360 20 72"
+				"point" "1 -360 40 72"
+				"point" "2 -348 60 64"
+				"point" "3 -348 20 64"
+			}
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1555,6 +2554,14 @@ world
 		{
 			"id" "258"
 			"plane" "(-420 20 64) (-420 60 64) (-408 40 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -420 20 64"
+				"point" "1 -420 60 64"
+				"point" "2 -408 40 72"
+				"point" "3 -408 20 72"
+			}
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1576,6 +2583,14 @@ world
 		{
 			"id" "269"
 			"plane" "(-360 0 72) (-408 0 72) (-408 20 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -360 0 72"
+				"point" "1 -408 0 72"
+				"point" "2 -408 20 72"
+				"point" "3 -360 20 72"
+			}
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1587,6 +2602,14 @@ world
 		{
 			"id" "268"
 			"plane" "(-348 20 64) (-420 20 64) (-420 0 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -348 20 64"
+				"point" "1 -420 20 64"
+				"point" "2 -420 0 64"
+				"point" "3 -348 0 64"
+			}
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1598,6 +2621,14 @@ world
 		{
 			"id" "267"
 			"plane" "(-420 20 64) (-348 20 64) (-360 20 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -420 20 64"
+				"point" "1 -348 20 64"
+				"point" "2 -360 20 72"
+				"point" "3 -408 20 72"
+			}
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1609,6 +2640,14 @@ world
 		{
 			"id" "266"
 			"plane" "(-348 0 64) (-420 0 64) (-408 0 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -348 0 64"
+				"point" "1 -420 0 64"
+				"point" "2 -408 0 72"
+				"point" "3 -360 0 72"
+			}
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1620,6 +2659,14 @@ world
 		{
 			"id" "265"
 			"plane" "(-360 0 72) (-360 20 72) (-348 20 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -360 0 72"
+				"point" "1 -360 20 72"
+				"point" "2 -348 20 64"
+				"point" "3 -348 0 64"
+			}
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1631,6 +2678,14 @@ world
 		{
 			"id" "264"
 			"plane" "(-420 0 64) (-420 20 64) (-408 20 72)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -420 0 64"
+				"point" "1 -420 20 64"
+				"point" "2 -408 20 72"
+				"point" "3 -408 0 72"
+			}
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1652,6 +2707,14 @@ world
 		{
 			"id" "281"
 			"plane" "(-208 32 96) (-32 32 96) (-32 0 96)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -208 0 96"
+				"point" "1 -208 32 96"
+				"point" "2 -32 32 96"
+				"point" "3 -32 0 96"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1663,6 +2726,14 @@ world
 		{
 			"id" "280"
 			"plane" "(-208 0 64) (-32 0 64) (-32 32 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -208 32 64"
+				"point" "1 -208 0 64"
+				"point" "2 -32 0 64"
+				"point" "3 -32 32 64"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1674,6 +2745,14 @@ world
 		{
 			"id" "279"
 			"plane" "(-208 32 96) (-208 0 96) (-208 0 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -208 0 64"
+				"point" "1 -208 32 64"
+				"point" "2 -208 32 96"
+				"point" "3 -208 0 96"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1685,6 +2764,14 @@ world
 		{
 			"id" "278"
 			"plane" "(-32 32 64) (-32 0 64) (-32 0 96)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 32 64"
+				"point" "1 -32 0 64"
+				"point" "2 -32 0 96"
+				"point" "3 -32 32 96"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1696,6 +2783,14 @@ world
 		{
 			"id" "277"
 			"plane" "(-32 32 96) (-208 32 96) (-208 32 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -208 32 64"
+				"point" "1 -32 32 64"
+				"point" "2 -32 32 96"
+				"point" "3 -208 32 96"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1707,6 +2802,14 @@ world
 		{
 			"id" "276"
 			"plane" "(-32 0 64) (-208 0 64) (-208 0 96)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -32 0 64"
+				"point" "1 -208 0 64"
+				"point" "2 -208 0 96"
+				"point" "3 -32 0 96"
+			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1720,6 +2823,28 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "1357"
+	"classname" "light_environment"
+	"_ambient" "255 255 255 20"
+	"_ambientHDR" "-1 -1 -1 1"
+	"_AmbientScaleHDR" "1"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"angles" "0 270 0"
+	"pitch" "0"
+	"SunSpreadAngle" "0"
+	"origin" "-296.936 248 88"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
 	}
 }
 entity
@@ -1775,6 +2900,7 @@ entity
 	"linear_attn" "1"
 	"nearz" "4.0"
 	"ProjectedTextureVersion" "1"
+	"quadratic" "100"
 	"quadratic_attn" "0"
 	"shadowatten" "0.0"
 	"shadowquality" "1"
@@ -2033,6 +3159,7 @@ entity
 	"nearz" "11"
 	"parentname" "healthkit1"
 	"ProjectedTextureVersion" "1"
+	"quadratic" "100"
 	"quadratic_attn" "0"
 	"shadowatten" "0.0"
 	"shadowquality" "1"
@@ -2095,6 +3222,7 @@ entity
 	"nearz" "11"
 	"parentname" "healthkit2"
 	"ProjectedTextureVersion" "1"
+	"quadratic" "100"
 	"quadratic_attn" "0"
 	"shadowatten" "0.0"
 	"shadowquality" "1"
@@ -2115,9 +3243,17 @@ cameras
 {
 	"activecamera" "-1"
 }
-cordon
+cordons
 {
-	"mins" "(-1024 -1024 -1024)"
-	"maxs" "(1024 1024 1024)"
 	"active" "0"
+	cordon
+	{
+		"name" "cordon"
+		"active" "1"
+		box
+		{
+			"mins" "(-1024 -1024 -1024)"
+			"maxs" "(1024 1024 1024)"
+		}
+	}
 }
