@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	$basetexture "bigarea/brickwall040b_window_alpha"
+	$surfaceprop Brick
+
+	$translucent 1
+}

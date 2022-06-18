@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+	$basetexture "skybox/bigareaskyboxft"
+
+	$ignorez 1
+	$nofog 1
+}

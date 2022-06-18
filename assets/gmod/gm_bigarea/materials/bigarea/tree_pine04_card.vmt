@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+	$basetexture "bigarea/tree_pine04_card"
+
+	$alphatest 1
+}

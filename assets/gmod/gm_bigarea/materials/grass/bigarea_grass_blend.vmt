@@ -1,0 +1,12 @@
+WorldVertexTransition
+{
+	$basetexture "grass/bigarea_grass_Albedo"
+	$bumpmap "grass/bigarea_grass_Normal"
+	$surfaceprop Grass
+
+	$basetexture2 "grass/stone_Albedo"
+	$bumpmap2 "grass/stone_Normal"
+	$surfaceprop2 Rock
+
+	$blendmodulatetexture "grass/bigarea_grass_modulate"
+}
